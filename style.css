@@ -68,3 +68,6 @@
         background-color: #c0392b;
     }
 }
+.navbar-default {
+      border:none;
+    }
