@@ -58,3 +58,37 @@ h1, h2, h3, h4, h5, h6 {
 .img-cover {
   background-size: cover;
 }
+
+.responsive-iframe-container {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px;
+height: 0;
+overflow: hidden;
+}
+
+.responsive-iframe-container iframe,
+.vresponsive-iframe-container object,
+.vresponsive-iframe-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+.responsive-iframe-container-sm {
+  position: relative;
+  padding-bottom: 500px;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+.responsive-iframe-container-sm iframe,
+.vresponsive-iframe-container-sm object,
+.vresponsive-iframe-container-sm embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
