@@ -10,20 +10,14 @@
 <link rel="stylesheet" href="style.css" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 <script type="text/javascript" src="instafeed.js"></script>
-<script type="text/javascript">
-var userFeed = new Instafeed({
-  get: 'user',
-  userId: '4250452460',
-  sortBy: 'most-recent',
-  limit: 10,
-  accessToken: '4250452460.3f15772.5503ea21e2c6423580685087af057439',//'3f157723e1014df9b899ff3ea3c7cd58'
-  template: '<div class="col-lg-4 col-md-6"><a href="{{link}}"><img src="{{image}}" /></a><p>{{caption}}</p></div>'
-});
-userFeed.run();
-alert("it runs!");
-// curl -F 'client_id=3f157723e1014df9b899ff3ea3c7cd58' -F 'client_secret=840bd85f4d204df3acdfe429d4ef0b29' -F 'grant_type=authorization_code' -F 'redirect_uri=https://arcsvyouth.github.io' -F 'code=56123fcdf2104d5784cd27d1b396643e' https://api.instagram.com/oauth/access_token
-
-</script>
+<style>
+.insta-pic {
+  padding:10px;
+  text-align: center;
+  width:100%;
+  border:1px solid gray;
+}
+</style>
 
 
 </head>
@@ -64,14 +58,39 @@ alert("it runs!");
 <div class="container">
   <div id="instafeed" class="row">
   </div>
+  <button class="btn btn-lg btn-block" id="load-more">Load More</button>
 </div>
-
+<hr />
 
 <!--jquery and Bootstrap javascript-->
   <script
     src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+  var loadButton = document.getElementById('load-more');
+  var userFeed = new Instafeed({
+    get: 'user',
+    userId: '4250452460',
+    sortBy: 'most-recent',
+    limit: 4,
+    accessToken: '4250452460.3f15772.5503ea21e2c6423580685087af057439',//'3f157723e1014df9b899ff3ea3c7cd58'
+    template: '<div class="col-lg-3 col-md-4 col-sm-6" style="margin-bottom:20px;"><div class="insta-pic"><a href="{{link}}"><img src="{{image}}" style="margin-bottom:5px;"/></a><p>{{caption}}</p></div></div>',
+    after: function() {
+      if (!this.hasNext()) {
+        loadButton.setAttribute('disabled', 'disabled');
+      }
+    }
+  });
+  alert('why');
+  loadButton.addEventListener("click", function() {
+    userFeed.next();
+  }
+  );
+  userFeed.run();
+  alert("it runs!");
+  // curl -F 'client_id=3f157723e1014df9b899ff3ea3c7cd58' -F 'client_secret=840bd85f4d204df3acdfe429d4ef0b29' -F 'grant_type=authorization_code' -F 'redirect_uri=https://arcsvyouth.github.io' -F 'code=56123fcdf2104d5784cd27d1b396643e' https://api.instagram.com/oauth/access_token
 
+  </script>
 
   <!--made with ♥ by shannon ding sometime around august of 2017-->
 </body>
