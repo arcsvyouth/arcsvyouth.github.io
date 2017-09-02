@@ -73,8 +73,9 @@
     userId: '4250452460',
     sortBy: 'most-recent',
     limit: 4,
+    resolution: 'standard_resolution',
     accessToken: '4250452460.3f15772.5503ea21e2c6423580685087af057439',//'3f157723e1014df9b899ff3ea3c7cd58'
-    template: '<div class="col-lg-3 col-md-4 col-sm-6" style="margin-bottom:20px;"><div class="insta-pic"><a href="{{link}}"><img src="{{image}}" style="margin-bottom:5px;"/></a><p>{{caption}}</p></div></div>',
+    template: '<div class="col-lg-6 col-md-6 col-sm-6" style="margin-bottom:20px;"><div class="insta-pic"><a href="{{link}}" class="thumbnail"><img src="{{image}}" class="img-responsive"/></a><p>{{caption}}</p></div></div>',
     after: function() {
       if (!this.hasNext()) {
         loadButton.setAttribute('disabled', 'disabled');
