@@ -9,25 +9,30 @@
 <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 <link rel="stylesheet" href="style.css" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+<script type="text/javascript" src="instafeed.js"></script>
+<script type="text/javascript">
+var userFeed = new Instafeed({
+  get: 'user',
+  userId: '4250452460',
+  sortBy: 'most-recent',
+  limit: 10,
+  accessToken: '4250452460.3f15772.5503ea21e2c6423580685087af057439',//'3f157723e1014df9b899ff3ea3c7cd58'
+  template: '<div class="col-lg-4 col-md-6"><a href="{{link}}"><img src="{{image}}" /></a><p>{{caption}}</p></div>'
+});
+userFeed.run();
+alert("it runs!");
+// curl -F 'client_id=3f157723e1014df9b899ff3ea3c7cd58' -F 'client_secret=840bd85f4d204df3acdfe429d4ef0b29' -F 'grant_type=authorization_code' -F 'redirect_uri=https://arcsvyouth.github.io' -F 'code=56123fcdf2104d5784cd27d1b396643e' https://api.instagram.com/oauth/access_token
+
+</script>
+
+
 </head>
-<style>
-/*.header-jumbo {
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.2)
-    ),
-    url("images/calendar-header.jpg");
-  background-size:cover;
-  background-attachment: fixed;
-  background-position: center bottom;
-}*/
-</style>
 <body>
   <!--navbar-->
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav-calendar" aria-expanded="false">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav-login" aria-expanded="false">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -35,13 +40,14 @@
         </button>
         <a href="index.html" class="navbar-brand">ARCSV Youth</a>
       </div>
-      <div class="collapse navbar-collapse" id="main-nav-calendar">
+      <div class="collapse navbar-collapse" id="main-nav-login">
         <ul class="nav navbar-nav">
           <li><a href="upcoming.html">Upcoming</a></li>
           <li><a href="committees.html">Committees</a></li>
           <li><a href="newsletters.html">Newsletters</a></li>
-          <li class="active"><a href="#">Calendar</a></li>
+          <li><a href="calendar.html">Calendar</a></li>
           <li><a href="contact.html">Contact</a></li>
+          <li class="active"><a href="#">Social Wall</a></li>
         </ul>
       </div>
     </div>
@@ -49,28 +55,24 @@
   <!--navbar ends-->
   <div class="jumbotron header-jumbo">
     <div class="container">
-      <h1>Calendar</h1>
-      <p>Calendar of events on the "Upcoming" tab.</p>
+      <h1>Social Wall</h1>
+      <p>Posts from our Facebook and Instagram!</p>
     </div>
   </div>
-<!--calender-->
-<div class="container">
-  <h2>Calendar</h2>
-  <div class="hidden-xs responsive-iframe-container">
-  <iframe src="https://calendar.google.com/calendar/embed?src=i2jsc6ov4tln9gbsqup5oimsl0%40group.calendar.google.com&ctz=America/Los_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-</div>
-<div class="visible-xs-block responsive-iframe-container-sm">
-  <iframe src="https://calendar.google.com/calendar/embed?mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=i2jsc6ov4tln9gbsqup5oimsl0%40group.calendar.google.com&amp;color=%23711616&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="300" height="600" frameborder="0" scrolling="no"></iframe>
-</div>
-</div>
+<!--login-->
 
-<hr />
+<div class="container">
+  <div id="instafeed" class="row">
+  </div>
+</div>
 
 
 <!--jquery and Bootstrap javascript-->
   <script
     src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
   <!--made with ♥ by shannon ding sometime around august of 2017-->
 </body>
 </html>
