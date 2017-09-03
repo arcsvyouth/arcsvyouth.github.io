@@ -18,6 +18,11 @@
   border:1px solid #DDD;
   border-radius: 2px;
 }
+.text-cut {
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  overflow:hidden;
+}
 </style>
 
 
@@ -108,7 +113,7 @@
     limit: 4,
     resolution: 'low_resolution',
     accessToken: '4250452460.3f15772.5503ea21e2c6423580685087af057439',//'3f157723e1014df9b899ff3ea3c7cd58'
-    template: '<div class="col-lg-3 col-md-4 col-sm-6 insta-container" style="margin-bottom:20px;"><div class="insta-pic"><a href="{{link}}" class="thumbnail"><img src="{{image}}" class="img-responsive"/></a><p>{{caption}}</p></div></div>',
+    template: '<div class="col-lg-3 col-md-4 col-sm-6 insta-container" style="margin-bottom:20px;"><div class="insta-pic"><a href="{{link}}" class="thumbnail"><img src="{{image}}" class="img-responsive"/></a><p class="text-cut">{{caption}}</p></div></div>',
     after: function() {
       if (!this.hasNext()) {
         loadButton.setAttribute('disabled', 'disabled');
@@ -134,14 +139,14 @@
     }
   };
   // uncomment this when you want to use toMaxHeight (and after you fix evenText)
-  // $(document).ready(toMaxHeight);
-  //
-  // $(window).resize(toMaxHeight);
+  $(document).ready(toMaxHeight);
+
+  $(window).resize(toMaxHeight);
 
   loadButton.addEventListener("click", function() {
     userFeed.next();
 
-    // toMaxHeight();
+    toMaxHeight();
   }
   );
   userFeed.run();
