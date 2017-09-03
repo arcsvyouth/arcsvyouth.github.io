@@ -12,10 +12,11 @@
 <script type="text/javascript" src="instafeed.js"></script>
 <style>
 .insta-pic {
-  padding:10px;
+  padding:15px;
   text-align: center;
   width:100%;
-  border:1px solid gray;
+  border:1px solid #DDD;
+  border-radius: 2px;
 }
 </style>
 
@@ -66,33 +67,84 @@
   <script
     src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+<script>
+// fix this!
+// var evenText = function(obj) {
+//   alert("PRETEND EVEN TEXT WORKS OKAY");
+//
+//    // if (document.onLoad) {
+//     alert("entered func");
+//     var numberOfPosts = document.getElementById('instafeed').childNodes.length;
+//     alert("number of posts is " + numberOfPosts);
+//     for (var i = 0; i < numberOfPosts - 1; i++) {
+//       var postContainer = document.getElementById('instafeed')[i];
+//       var post = postContainer.childNodes[0];
+//       var caption = post.childNodes[1];
+//       // var post = postContain.getElementsByTagName('div');
+//       // var caption = post.getElementsByTagName('p').textContent;
+//       var captionText = caption.textContent;
+//       alert(captionText);
+//     }
+//     alert('it worked!!!!!');
+//    // }
+// };
+
+// var evenText = function(text) {
+//   var caption = text.textContent;
+//   if (caption.length > 40) {
+//     alert("too long!");
+//     text.innerHTML = text.substring(0,40);
+//   }
+// };
+</script>
   <script type="text/javascript">
+  // load the pictures and captions
   var loadButton = document.getElementById('load-more');
   var userFeed = new Instafeed({
     get: 'user',
     userId: '4250452460',
     sortBy: 'most-recent',
     limit: 4,
-    resolution: 'standard_resolution',
+    resolution: 'low_resolution',
     accessToken: '4250452460.3f15772.5503ea21e2c6423580685087af057439',//'3f157723e1014df9b899ff3ea3c7cd58'
-    template: '<div class="col-lg-6 col-md-6 col-sm-6" style="margin-bottom:20px;"><div class="insta-pic"><a href="{{link}}" class="thumbnail"><img src="{{image}}" class="img-responsive"/></a><p>{{caption}}</p></div></div>',
+    template: '<div class="col-lg-3 col-md-4 col-sm-6 insta-container" style="margin-bottom:20px;"><div class="insta-pic"><a href="{{link}}" class="thumbnail"><img src="{{image}}" class="img-responsive"/></a><p>{{caption}}</p></div></div>',
     after: function() {
       if (!this.hasNext()) {
         loadButton.setAttribute('disabled', 'disabled');
       }
     }
   });
-  alert('why');
+
+  // curl -F 'client_id=3f157723e1014df9b899ff3ea3c7cd58' -F 'client_secret=840bd85f4d204df3acdfe429d4ef0b29' -F 'grant_type=authorization_code' -F 'redirect_uri=https://arcsvyouth.github.io' -F 'code=56123fcdf2104d5784cd27d1b396643e' https://api.instagram.com/oauth/access_token
+</script>
+
+<script>
+// make all the heights the same
+  var toMaxHeight = function() {
+    var maxHeight = 0;
+    $(".insta-container").height("100%");
+    if ($(document).width() > 766) {
+      var heights = $(".insta-container").map(function() {
+          return $(this).height();
+      }).get();
+      maxHeight = Math.max.apply(null, heights);
+      console.log(maxHeight);
+      $(".insta-container").height(maxHeight);
+    }
+  };
+  // uncomment this when you want to use toMaxHeight (and after you fix evenText)
+  // $(document).ready(toMaxHeight);
+  //
+  // $(window).resize(toMaxHeight);
+
   loadButton.addEventListener("click", function() {
     userFeed.next();
+
+    // toMaxHeight();
   }
   );
   userFeed.run();
-  alert("it runs!");
-  // curl -F 'client_id=3f157723e1014df9b899ff3ea3c7cd58' -F 'client_secret=840bd85f4d204df3acdfe429d4ef0b29' -F 'grant_type=authorization_code' -F 'redirect_uri=https://arcsvyouth.github.io' -F 'code=56123fcdf2104d5784cd27d1b396643e' https://api.instagram.com/oauth/access_token
-
   </script>
-
   <!--made with ♥ by shannon ding sometime around august of 2017-->
-</body>
 </html>
