@@ -92,3 +92,9 @@ left: 0;
 width: 100%;
 height: 100%;
 }
+.alert-box {
+  background: #f0ad4e;
+  padding:15px;
+  color:white;
+  margin-bottom:10px;
+}
