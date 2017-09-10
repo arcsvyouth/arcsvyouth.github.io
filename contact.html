@@ -11,17 +11,42 @@
 <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 </head>
 <style>
-.header-jumbo {
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.2)
-    ),
-    url("images/eboard2018-header.jpg");
-  background-size:cover;
-  background-attachment: fixed;
-  background-position: center;
+@media only screen and (min-width: 1126px) {
+  .header-jumbo {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url("images/eboard2018-header.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center bottom;
+  }
 }
 
+@media only screen and (min-width: 801px) and (max-width: 1125px) {
+  .header-jumbo {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url("images/eboard2018-header-1150w700h.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center bottom;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 800px) {
+  .header-jumbo {
+    background:
+      url("images/memphis-colorful.png");
+    background-attachment: fixed;
+  }
+  .header-jumbo h1, .header-jumbo p {
+    color:black;
+    text-shadow: none;
+  }
+}
 </style>
 <body>
   <!--navbar-->
