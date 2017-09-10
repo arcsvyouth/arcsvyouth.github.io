@@ -111,3 +111,7 @@ height: 100%;
   font-weight: bold;
   font-family: Georgia, serif;
 }
+.alert-row {
+  background:#ff6961;
+  color:white;
+}
