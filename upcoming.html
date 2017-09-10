@@ -8,7 +8,7 @@
 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 <link rel="stylesheet" href="style.css" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+<!-- <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"> -->
 </head>
 <style>
 
@@ -25,7 +25,7 @@
   }
 }
 
-@media only screen and (min-width: 0px) and (max-width: 1125px) {
+@media only screen and (min-width: 801px) and (max-width: 1125px) {
   .header-jumbo {
     background: linear-gradient(
         rgba(0, 0, 0, 0.2),
@@ -37,7 +37,16 @@
     background-position: center 70%;
   }
 }
-
+@media only screen and (min-width: 0px) and (max-width: 800px) {
+  .header-jumbo {
+    background: url("images/doodles.png");
+    background-attachment: fixed;
+    color:black;
+  }
+  .header-jumbo h1, .header-jumbo p{
+    text-shadow: none;
+  }
+}
 </style>
 <body>
   <!--navbar-->
