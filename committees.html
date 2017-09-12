@@ -87,7 +87,9 @@
       <div class="committee">
       <h3>Service to the Armed Forces (SAF)</h3>
       <div class="thumbnail">
-      <img src="images/saf-committee.jpg" alt="Committee image" class="img-responsive">
+      <img src="images/saf-committee.jpg" alt="Service to the Armed Forces committee image"
+      srcset="images/saf-committee-445w.jpg 445w, images/saf-committee-350w.jpg 350w, images/saf-committee.jpg 600w"
+      sizes="(min-width: 0px and max-width: 767px) 100vw, (max-width: 1199px) 445px, 350px" class="img-responsive">
     </div>
       <p>The Service to the Armed Forces Committee invites youth to work with the American Red Cross SAF Deparment to support our service men and women, their families and our nation's veterans. Through the Red Cross's emergency communication services and service to military and veterans hospitals, the youth will have a chance to interact with military communities and make a difference through projects with the Fisher House, the Veteran's Day Parade, the Veteran's Hospital, and Travis Air Force Base.</p>
       <p><strong>Meeting dates:</strong> Afternoon on the 1st and 3rd Saturday</p>
@@ -184,7 +186,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script>
 
-  $(document).onload(function () {
+  $(window).on('load', function() {
     var maxHeight = 0;
     $(".committee").height("100%");
     if ($(document).width() > 766) {
