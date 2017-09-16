@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="style.css" type="text/css">
 <!-- <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"> -->
 <style>
-@media only screen and (min-width: 1126px) {
+/*@media only screen and (min-width: 1126px) {
   .header-jumbo {
     background: linear-gradient(
         rgba(0, 0, 0, 0.2),
@@ -41,6 +41,14 @@
       url("images/dark_geometric.png");
     background-attachment: fixed;
   }
+}*/
+.header-jumbo {
+  background: #FF5F6D;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.header-jumbo h1, .header-jumbo p{
+  text-shadow: none;
 }
 </style>
 </head>
@@ -80,7 +88,11 @@
   </div>
 
   <!-- alert -->
-
+<div class="container">
+  <div class="jumbotron alert-box-outline">
+    <h3>Instructions for how to submit can be found on the applications themselves.</h3>
+  </div>
+</div>
   <!--committee elements-->
 <div class="container" id="committees">
   <div class="row">

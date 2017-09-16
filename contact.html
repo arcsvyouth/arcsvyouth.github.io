@@ -11,7 +11,7 @@
 <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 </head>
 <style>
-@media only screen and (min-width: 1126px) {
+/*@media only screen and (min-width: 1126px) {
   .header-jumbo {
     background: linear-gradient(
         rgba(0, 0, 0, 0.2),
@@ -46,6 +46,14 @@
     color:black;
     text-shadow: none;
   }
+}*/
+.header-jumbo {
+  background: #56CCF2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.header-jumbo h1, .header-jumbo p{
+  text-shadow: none;
 }
 </style>
 <body>
@@ -82,6 +90,11 @@
     </div>
   </div>
 <!--contact begins-->
+<div class="container">
+  <div class="jumbotron alert-box-outline">
+    <h3>Posts and photo albums <a href="social.html" target="_blank">here</a>!</h3>
+  </div>
+</div>
 <div class="container">
   <h2>ARCSV Contact</h2>
     <button type="button" class="btn btn-default"><a href="https://www.facebook.com/arcsvyouth" target="_blank">ARCSV Facebook</a></button>

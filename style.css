@@ -102,6 +102,7 @@ height: 100%;
   padding:15px;
   color:white;
   margin-bottom:10px;
+  padding-top:5px;
 }
 .header-jumbo h1 {
   font-weight: bold;
@@ -114,4 +115,16 @@ height: 100%;
 .alert-row {
   background:#ff6961;
   color:white;
+}
+h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
+  font-family: Georgia, serif;
+}
+.alert-box-outline {
+  border: 1px solid gray;
+  padding:15px;
+  margin-bottom:10px;
+  padding-top:5px;
+  background:white;
+  border-color: linear-gradient(to left, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
