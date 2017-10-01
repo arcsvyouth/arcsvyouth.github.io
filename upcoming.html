@@ -98,7 +98,7 @@
 
   <div class="container">
       <h3>Update Log
-        <button type="button" class="btn btn-default btn-xs collapsed" data-toggle="collapse" data-target="#update-table">Show</button>
+        <button type="button" id="updateShowButton" class="btn btn-default btn-xs collapsed" data-toggle="collapse" data-target="#update-table">Show</button>
       </h3>
       <div id="update-table" class="collapse">
       <p>Any updates to the events below and clarifications to contradictions in the newsletter. The website will always be better updated, so trust the website over the newsletter!</p>
@@ -111,6 +111,11 @@
           </tr>
         </thead>
         <tbody>
+          <tr>
+            <td>10/1, 11:09AM</td>
+            <td>First Committee Meetings</td>
+            <td>H&S, Blood, International, Safekids, SAF added</td>
+          </tr>
           <tr>
             <td>9/23, 7:24PM</td>
             <td>Committee apps</td>
@@ -156,7 +161,55 @@
       <div class="row">
           <div class="col-md-12 col-sm-12">Club officers - come to the Red Cross Chapter to hear about chapter announcements.</div>
       </div>
-
+      <div class="row row-m-t row-table-head">
+          <div class="col-md-6 col-sm-6"><h4>Second H&S Committee Meeting</h4></div>
+          <div class="col-md-6 col-sm-6"><h4>10/8 (Sunday) 11AM-12PM</h4></div>
+        </div>
+      <div class="row">
+          <div class="col-md-12 col-sm-12">The first meeting for the Health and Safety (H&S) Committee was October 1st, but following meetings will take place at the same time on the 2nd and 4th Sundays of each month (Oct. 8th and on). The application deadline has passed, so contact the Blood coordinators if you are still interested in joining.</div>
+      </div>
+      <div class="row row-m-t row-table-head">
+          <div class="col-md-6 col-sm-6"><h4>First Blood Committee Meeting</h4></div>
+          <div class="col-md-6 col-sm-6"><h4>10/8 (Sunday) 2-3PM</h4></div>
+        </div>
+      <div class="row">
+          <div class="col-md-12 col-sm-12">The first meeting for the Blood Committee; following meetings will take place at the same time on the 2nd and 4th Sundays of each month. The application deadline has passed, so contact the Blood coordinators if you are still interested in joining.</div>
+      </div>
+      <div class="row row-m-t row-table-head">
+          <div class="col-md-6 col-sm-6"><h4>Disaster Action Team Training</h4></div>
+          <div class="col-md-6 col-sm-6"><h4>10/11 (Wednesday) 6:30-9:30PM</h4></div>
+        </div>
+      <div class="row">
+          <div class="col-md-12 col-sm-12">The Red Cross Chapter's monthly training for their Disaster Action Team (DAT), a group of youth and adult volunteers that help respond to the aftermath of disasters like home fires or floods.</div>
+      </div>
+      <div class="row row-m-t row-table-head">
+          <div class="col-md-6 col-sm-6"><h4>First International Committee Meeting</h4></div>
+          <div class="col-md-6 col-sm-6"><h4>10/15 (Sunday) 11AM-12PM</h4></div>
+        </div>
+      <div class="row">
+          <div class="col-md-12 col-sm-12">The first meeting for the International Committee; following meetings will take place at the same time on the 1st and 3rd Sundays of each month. Apply by tonight or contact the International coordinators if you are still interested in joining.</div>
+      </div>
+      <div class="row row-m-t row-table-head">
+          <div class="col-md-6 col-sm-6"><h4>First Safekids Committee Meeting</h4></div>
+          <div class="col-md-6 col-sm-6"><h4>10/15 (Sunday) 9-10AM</h4></div>
+        </div>
+      <div class="row">
+          <div class="col-md-12 col-sm-12">The first meeting for the Safekids Committee; following meetings will take place at the same time on the 2nd and 4th Sundays of each month. Apply by tonight or contact the Safekids coordinators if you are still interested in joining.</div>
+      </div>
+      <div class="row row-m-t row-table-head">
+          <div class="col-md-6 col-sm-6"><h4>First SAF Committee Meeting</h4></div>
+          <div class="col-md-6 col-sm-6"><h4>10/21 (Saturday) tbd</h4></div>
+        </div>
+      <div class="row">
+          <div class="col-md-12 col-sm-12">The first meeting for the Service to the Armed Forces (SAF) Committee; following meetings will take place at the same time on the 1st and 3rd Saturdays of each month. Apply by tonight or contact the SAF coordinators if you are still interested in joining.</div>
+      </div>
+      <div class="row row-m-t row-table-head">
+          <div class="col-md-6 col-sm-6"><h4>Safekids Instructor Training</h4></div>
+          <div class="col-md-6 col-sm-6"><h4>10/29 (Sunday) tbd</h4></div>
+        </div>
+      <div class="row">
+          <div class="col-md-12 col-sm-12">This 3-4 hour training covers the different classes the Safekids Committee may teach. It is required in order to teach classes over the year, but there will be another training scheduled for second semester. Apply to the Safekids committee by tonight, or contact the Safekids coordinators if you are interested in joining the committee and attending the training.</div>
+      </div>
     </div>
   </div>
 <hr />
@@ -176,6 +229,17 @@
     ga('create', 'UA-105859733-1', 'auto');
     ga('send', 'pageview');
 
+  </script>
+  <script>
+  var updateBut = document.getElementById("updateShowButton");
+  updateBut.addEventListener("click", function() {
+    if (updateBut.textContent === "Show") {
+      updateBut.textContent = "Hide";
+    }
+    else {
+      updateBut.textContent = "Show";
+    }
+  });
   </script>
   <!--made with ♥ by shannon ding sometime around august of 2017-->
 </body>
