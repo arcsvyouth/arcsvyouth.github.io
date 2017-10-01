@@ -13,9 +13,7 @@
 }
 .navbar-default {
   border-radius: 0;
-  /*box-shadow: 0px -1px 10px;*/
   background: white;
-  /*border-color:#ff6961;*/
   border:none;
 }
 
@@ -76,8 +74,7 @@ body {
   font-family: Arial;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: Georgia, serif;
-  /*font-family: 'Oswald', sans-serif;*/
+  font-family: 'Roboto', serif;
 }
 .img-cover {
   background-size: cover;
@@ -125,18 +122,18 @@ height: 100%;
 }
 .header-jumbo h1 {
   font-weight: bold;
-  font-family: Georgia, serif;
+  font-family: 'Roboto', serif;
 }
 #home-overlay h1 {
   font-weight: bold;
-  font-family: Georgia, serif;
+  font-family: 'Roboto', serif;
 }
 .alert-row {
   background:#ff6961;
   color:white;
 }
 h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
-  font-family: Georgia, serif;
+  font-family: 'Roboto', serif;
 }
 .alert-box-outline {
   border: 1px solid gray;
@@ -154,4 +151,7 @@ h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
   margin-bottom:10px;
   padding-top:5px;
   background:rgba(255,255,255, 0.2);
+}
+.committee h3 {
+  font-weight:bold;
 }
