@@ -175,3 +175,12 @@ h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
 #homeNavList a {
   color:white;
 }
+.eventLabel {
+  font-size:9px;
+  padding:3px 5px;
+  border-radius:5px;
+  background: #333;
+  color:white;
+  margin-left:5px;
+  vertical-align: middle;
+}
