@@ -5,6 +5,13 @@
   color: #777;
   font-weight:bold;
 }
+.navbar-brand {
+  padding:10px;
+}
+.navbar-brand img {
+  width:30px;
+  height:30px;
+}
 .navbar-default .navbar-nav>li>a:hover {
   color: #777;
 }
@@ -154,4 +161,17 @@ h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
 }
 .committee h3 {
   font-weight:bold;
+}
+#homeNavList {
+  display:flex;
+  justify-content: space-between;
+  list-style:none;
+  padding-left:0;
+  flex-wrap: wrap;
+}
+#homeNavList li {
+  padding: 0 10px;
+}
+#homeNavList a {
+  color:white;
 }
