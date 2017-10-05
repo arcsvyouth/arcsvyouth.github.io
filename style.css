@@ -77,6 +77,22 @@ body {
   background: #ff6961;
   color: white;
 }
+.header-jumbo h1 {
+  font-weight: bold;
+  font-family: 'Roboto', serif;
+}
+.subheader-jumbo {
+  background: #ff6961;
+  color: white;
+  margin-bottom:30px;
+  position:sticky;
+  top:50px;
+}
+.subheader-jumbo h3 {
+  font-weight: bold;
+  font-family: 'Roboto', serif;
+  margin-bottom:20px;
+}
 * {
   font-family: Arial;
 }
@@ -126,10 +142,6 @@ height: 100%;
   color:white;
   margin-bottom:10px;
   padding-top:5px;
-}
-.header-jumbo h1 {
-  font-weight: bold;
-  font-family: 'Roboto', serif;
 }
 #home-overlay h1 {
   font-weight: bold;
@@ -190,4 +202,10 @@ h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
   bottom:25px;
   right: 25px;
   width:75px;
+}
+.list-img img {
+  max-width: 60%;
+  min-width:500px;
+  margin:20px;
+  height:auto;
 }
