@@ -227,3 +227,6 @@ h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
 #homeNavList > .container > ul > li > a {
   font-weight: bold;
 }
+.container-out {
+  padding:40px 0;
+}
