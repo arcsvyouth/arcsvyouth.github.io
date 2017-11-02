@@ -124,21 +124,41 @@
   <script type="text/javascript">
   // load the pictures and captions
   var loadButton = document.getElementById('load-more');
-  var userFeed = new Instafeed({
-    get: 'user',
-    userId: '4250452460',
-    sortBy: 'most-recent',
-    limit: 4,
-    resolution: 'low_resolution',
-    accessToken: '4250452460.3f15772.5503ea21e2c6423580685087af057439',//'3f157723e1014df9b899ff3ea3c7cd58'
-    template: '<div class="col-lg-3 col-md-4 col-sm-6 insta-container" style="margin-bottom:20px;"><div class="insta-pic"><a href="{{link}}" target="_blank" class="thumbnail"><img src="{{image}}" class="img-responsive"/></a><p class="text-cut">{{caption}}</p></div></div>',
-    after: function() {
-      if (!this.hasNext()) {
-        loadButton.setAttribute('disabled', 'disabled');
-      }
-    }
-  });
+  // arcsvyouth
+  // var userFeed = new Instafeed({
+  //   get: 'user',
+  //   userId: '4250452460',
+  //   sortBy: 'most-recent',
+  //   limit: 4,
+  //   resolution: 'low_resolution',
+  //   accessToken: '4250452460.3f15772.5503ea21e2c6423580685087af057439',//'3f157723e1014df9b899ff3ea3c7cd58'
+  //   template: '<div class="col-lg-3 col-md-4 col-sm-6 insta-container" style="margin-bottom:20px;"><div class="insta-pic"><a href="{{link}}" target="_blank" class="thumbnail"><img src="{{image}}" class="img-responsive"/></a><p class="text-cut">{{caption}}</p></div></div>',
+  //   after: function() {
+  //     if (!this.hasNext()) {
+  //       loadButton.setAttribute('disabled', 'disabled');
+  //     }
+  //   }
+  // });
 
+  // #TBTB
+  var tagFeed = new Instafeed({
+    get: 'tagged',
+    tagName: 'awesome',
+    clientId: '3f157723e1014df9b899ff3ea3c7cd58',
+    accessToken: '4250452460.3f15772.5503ea21e2c6423580685087af057439'//'3f157723e1014df9b899ff3ea3c7cd58'
+
+    // sortBy: 'most-recent',
+    // limit: 4,
+    // resolution: 'low_resolution',
+    // template: '<div class="col-lg-3 col-md-4 col-sm-6 insta-container" style="margin-bottom:20px;"><div class="insta-pic"><a href="{{link}}" target="_blank" class="thumbnail"><img src="{{image}}" class="img-responsive"/></a><p class="text-cut">{{caption}}</p></div></div>',
+    // after: function() {
+    //   if (!this.hasNext()) {
+    //     loadButton.setAttribute('disabled', 'disabled');
+    //   }
+    // }
+  });
+  // code: cf91f51c646647c4ba99be1a789c8452
+  tagFeed.run();
   // curl -F 'client_id=3f157723e1014df9b899ff3ea3c7cd58' -F 'client_secret=840bd85f4d204df3acdfe429d4ef0b29' -F 'grant_type=authorization_code' -F 'redirect_uri=https://arcsvyouth.github.io' -F 'code=56123fcdf2104d5784cd27d1b396643e' https://api.instagram.com/oauth/access_token
 </script>
 
@@ -162,12 +182,13 @@
   $(window).resize(toMaxHeight);
 
   loadButton.addEventListener("click", function() {
-    userFeed.next();
-
+    // userFeed.next();
+    tagFeed.next();
     toMaxHeight();
   }
   );
-  userFeed.run();
+  // userFeed.run();
+  tagFeed.run();
   </script>
   <!--made with ♥ by shannon ding sometime around august of 2017-->
 </html>
