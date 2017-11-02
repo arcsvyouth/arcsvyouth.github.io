@@ -237,3 +237,9 @@ h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
 .col-block {
   padding:20px;
 }
+.container {
+  max-width:900px;
+}
+.jumbotron .container {
+  max-width:900px;
+}
