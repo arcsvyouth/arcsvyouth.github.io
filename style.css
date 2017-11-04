@@ -52,6 +52,9 @@ body {
   border-bottom: 2px solid #ddd;
   margin-bottom:10px;
 }
+.row-table-desc {
+  margin-bottom:50px;
+}
 .btn-xs-space {
   margin-right: 5px;
 }
