@@ -170,12 +170,12 @@ h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
 
 }
 .alert-box-trans-outline {
-  border: 1px solid rgba(255,255,255, 0.2);
-  padding:15px;
+  border-top: 1px solid rgba(255,255,255, 0.2);
+  border-bottom: 1px solid rgba(255,255,255, 0.2);
+  padding:5px 30px 15px 30px;
   margin-top:10px;
   margin-bottom:10px;
-  padding-top:5px;
-  background:rgba(255,255,255, 0.2);
+  background:none;
 }
 .committee h3 {
   font-weight:bold;
