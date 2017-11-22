@@ -101,9 +101,11 @@ body {
 }
 * {
   font-family: Arial;
+  line-height: 1.5em;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', serif;
+  font-weight: bold;
 }
 .img-cover {
   background-size: cover;
@@ -241,8 +243,8 @@ h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
   padding:20px;
 }
 .container {
-  max-width:900px;
+  max-width:800px;
 }
 .jumbotron .container {
-  max-width:900px;
+  max-width:800px;
 }
