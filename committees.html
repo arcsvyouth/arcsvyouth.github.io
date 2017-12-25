@@ -99,13 +99,7 @@
 
   <div class="jumbotron header-jumbo">
     <div class="container">
-      <h1 class="shadow-text">Committees</h1>
-      <p class="shadow-text">Committees are year-round Red Cross Chapter groups that host events on their topics for volunteer hours.</p>
-    </div>
-    <div class="container">
-      <div class="alert-box-trans-outline">
-        <h3>Applications were due on Oct. 1st. If you are still interested in joining, please contact the committee coordinators.</h3>
-      </div>
+      <h1>Committees</h1>
     </div>
   </div>
 
@@ -213,44 +207,44 @@
     src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script>
-    var maxHeight = 0;
-    var committees = document.getElementsByClassName("committee");
-    var allColumns = document.querySelectorAll(".row > div");
-    $(window).on('load', function() {
-      if ($(document).width() > 991) {
-        for (var i = 0; i < committees.length; i++) {
-        	if ($(committees[i]).height() > maxHeight) {
-        		maxHeight = $(committees[i]).height();
-            console.log("maxHeight is " + maxHeight);
-            }
-        }
-        maxHeight = Math.round(maxHeight);
-        for(var i = 0; i < allColumns.length; i++) {
-          allColumns[i].style.height = maxHeight + "px";
-        }
-    }
-  });
-
-  $(window).resize(function() {
-    console.log("LOOKS LIKE IT RESIZED WOW");
-    if ($(document).width() > 991) {
-      for (var i = 0; i < committees.length; i++) {
-        if ($(committees[i]).height() > maxHeight) {
-          console.log("maxHeight is " + maxHeight);
-          maxHeight = $(committees[i]).height();
-          }
-      }
-      maxHeight = Math.round(maxHeight);
-      for(var i = 0; i < allColumns.length; i++) {
-        allColumns[i].style.height = maxHeight + "px";
-      }
-    }
-    else {
-      for(var i = 0; i < allColumns.length; i++) {
-        allColumns[i].style.height = "auto";
-      }
-    }
-  });
+  //   var maxHeight = 0;
+  //   var committees = document.getElementsByClassName("committee");
+  //   var allColumns = document.querySelectorAll(".row > div");
+  //   $(window).on('load', function() {
+  //     if ($(document).width() > 991) {
+  //       for (var i = 0; i < committees.length; i++) {
+  //       	if ($(committees[i]).height() > maxHeight) {
+  //       		maxHeight = $(committees[i]).height();
+  //           console.log("maxHeight is " + maxHeight);
+  //           }
+  //       }
+  //       maxHeight = Math.round(maxHeight);
+  //       for(var i = 0; i < allColumns.length; i++) {
+  //         allColumns[i].style.height = maxHeight + "px";
+  //       }
+  //   }
+  // });
+  //
+  // $(window).resize(function() {
+  //   console.log("LOOKS LIKE IT RESIZED WOW");
+  //   if ($(document).width() > 991) {
+  //     for (var i = 0; i < committees.length; i++) {
+  //       if ($(committees[i]).height() > maxHeight) {
+  //         console.log("maxHeight is " + maxHeight);
+  //         maxHeight = $(committees[i]).height();
+  //         }
+  //     }
+  //     maxHeight = Math.round(maxHeight);
+  //     for(var i = 0; i < allColumns.length; i++) {
+  //       allColumns[i].style.height = maxHeight + "px";
+  //     }
+  //   }
+  //   else {
+  //     for(var i = 0; i < allColumns.length; i++) {
+  //       allColumns[i].style.height = "auto";
+  //     }
+  //   }
+  // });
   </script>
   <!--made with ♥ by shannon ding sometime around august of 2017-->
 </body>
