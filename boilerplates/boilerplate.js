@@ -5,7 +5,7 @@ if (!window.XMLHttpRequest && 'ActiveXObject' in window) {
 }
 function fillNav(activeNav) {
   var xhr= new XMLHttpRequest();
-  xhr.open('GET', 'https://arcsvyouth.github.io/boilerplates/body-boilerplate.html', true);
+  xhr.open('GET', 'https://arcsvyouth.github.io/boilerplates/nav-boilerplate.html', true);
   xhr.onreadystatechange= function() {
       if (this.readyState!==4) return;
       if (this.status!==200) {
