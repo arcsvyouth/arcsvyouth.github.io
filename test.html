@@ -1,22 +1,36 @@
 <!DOCTYPE html>
-<html lang="en" id="page">
+<html lang="en">
+<head id="headß">
+</head>
+<body id="body">
+</body>
 <script>
-function startPage() {
-  if (!window.XMLHttpRequest && 'ActiveXObject' in window) {
-      window.XMLHttpRequest= function() {
-          return new ActiveXObject('MSXML2.XMLHttp');
-      };
-  }
+if (!window.XMLHttpRequest && 'ActiveXObject' in window) {
+    window.XMLHttpRequest= function() {
+        return new ActiveXObject('MSXML2.XMLHttp');
+    };
+}
+function fillBody() {
   var xhr= new XMLHttpRequest();
-  xhr.open('GET', 'boilerplate.html', true);
+  xhr.open('GET', 'https://arcsvyouth.github.io/body-boilerplate.html', true);
   xhr.onreadystatechange= function() {
       if (this.readyState!==4) return;
       if (this.status!==200) return; // or whatever error handling you want
-      document.getElementById('page').innerHTML= this.responseText;
+      document.getElementById('body').innerHTML= this.responseText;
   };
   xhr.send();
-
 }
-startPage();
+function fillHead() {
+  var xhr= new XMLHttpRequest();
+  xhr.open('GET', 'https://arcsvyouth.github.io/head-boilerplate.html', true);
+  xhr.onreadystatechange= function() {
+      if (this.readyState!==4) return;
+      if (this.status!==200) return; // or whatever error handling you want
+      document.getElementById('head').innerHTML= this.responseText;
+  };
+  xhr.send();
+}
+fillBody();
+fillHead();
 </script>
 </html>
