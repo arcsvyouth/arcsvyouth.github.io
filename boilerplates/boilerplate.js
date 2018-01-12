@@ -3,7 +3,7 @@ if (!window.XMLHttpRequest && 'ActiveXObject' in window) {
         return new ActiveXObject('MSXML2.XMLHttp');
     };
 }
-function fillNav(activeNav) {
+function fillNav() {
   var xhr= new XMLHttpRequest();
   xhr.open('GET', 'https://arcsvyouth.github.io/boilerplates/nav-boilerplate.html', true);
   xhr.onreadystatechange= function() {
@@ -13,7 +13,7 @@ function fillNav(activeNav) {
         return; // or whatever error handling you want
       }
       document.getElementById('nav').innerHTML= this.responseText;
-      document.querySelectorAll(".nav>li")[activeNav].classList.add("active");
+      
   };
   xhr.send();
 }
