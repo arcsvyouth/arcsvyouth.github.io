@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" id="page">
+<script>
+function startPage() {
+  if (!window.XMLHttpRequest && 'ActiveXObject' in window) {
+      window.XMLHttpRequest= function() {
+          return new ActiveXObject('MSXML2.XMLHttp');
+      };
+  }
+  var xhr= new XMLHttpRequest();
+  xhr.open('GET', 'boilerplate.html', true);
+  xhr.onreadystatechange= function() {
+      if (this.readyState!==4) return;
+      if (this.status!==200) return; // or whatever error handling you want
+      document.getElementById('page').innerHTML= this.responseText;
+  };
+  xhr.send();
+
+}
+startPage();
+</script>
+</html>
