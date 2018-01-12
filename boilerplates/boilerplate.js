@@ -13,7 +13,10 @@ function fillNav(activeNumber) {
         return; // or whatever error handling you want
       }
       document.getElementById('nav').innerHTML= this.responseText;
-      document.querySelectorAll(".nav>li")[activeNumber].classList.add("active");
+      if (activeNumber >= 0) {
+        document.querySelectorAll(".nav>li")[activeNumber].classList.add("active");
+      }
+
   };
   xhr.send();
 }
