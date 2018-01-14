@@ -12,7 +12,6 @@ function fillNav(activeNumber) {
         alert("Error. This page requires Javascript to load.");
         return; // or whatever error handling you want
       }
-      document.body.transition = "padding 1s";
       document.body.padding = "70px 0 0 0";
       document.getElementById('nav').innerHTML= this.responseText;
       if (activeNumber >= 0) {
