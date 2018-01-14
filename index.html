@@ -160,7 +160,10 @@
   crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script type="text/javascript">
-  $("#head").load("boilerplates/head-boilerplate.html");
+  $.get("boilerplates/head-boilerplate.html", function(data) {
+    $("#head").append(data);
+  })
+  // $("#head").load("boilerplates/head-boilerplate.html");
       $("#nav").load("boilerplates/nav-boilerplate.html");
   </script>
 <!--made with ♥ by shannon ding sometime around august of 2017-->
