@@ -152,17 +152,18 @@
 
   </script>
 
-
-  <script type="text/javascript">
-    fillNav(-1);
-  </script>
   <!--jquery and Bootstrap javascript-->
   <script
   src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+  <script type="text/javascript">
+    // fillNav(-1);
+    $(function() {
+      $("#nav").load("boilerplates/nav-boilerplate.html");
+    })
+  </script>
 <!--made with ♥ by shannon ding sometime around august of 2017-->
 </body>
 </html>

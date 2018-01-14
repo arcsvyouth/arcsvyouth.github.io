@@ -9,7 +9,7 @@ function fillNav(activeNumber) {
   xhr.onreadystatechange= function() {
       if (this.readyState!==4) return;
       if (this.status!==200) {
-        alert("Error. This page requires Javascript to load.");
+        alert("Error. This page requires Javascript and an Internet connection to load.");
         return; // or whatever error handling you want
       }
       document.body.padding = "70px 0 0 0";
