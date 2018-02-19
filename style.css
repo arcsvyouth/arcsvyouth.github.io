@@ -1,10 +1,7 @@
-/*@font-face {
-  font-family: "Roboto";
-  src: url("https://fonts.googleapis.com/css?family=Roboto");
-}*/
+
 .navbar-default .navbar-nav>li>a {
   color: #777;
-  font-family: "Roboto";
+  font-family: 'Helvetica Neue', serif;
 }
 .navbar-default .navbar-brand {
   color: #777;
@@ -88,7 +85,7 @@ body {
 }
 .bold-serif {
   font-weight: bold;
-  font-family: Georgia, serif;
+  font-family: 'Helvetica Neue', serif;
 }
 .jumbotron-clear {
   background: transparent;
@@ -100,7 +97,7 @@ body {
 }
 .header-jumbo h1 {
   font-weight: bold;
-  font-family: 'Roboto', serif;
+  font-family: 'Helvetica Neue', serif;
   font-size:28px;
   text-align: center;
 }
@@ -113,15 +110,15 @@ body {
 }
 .subheader-jumbo h3 {
   font-weight: bold;
-  font-family: 'Roboto', serif;
+  font-family: 'Helvetica Neue', serif;
   margin-bottom:20px;
 }
 * {
-  font-family: Arial;
+  font-family: 'Georgia',sans-serif;
   line-height: 1.5em;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto', serif;
+  font-family: 'Helvetica Neue', serif;
   font-weight: bold;
 }
 .img-cover {
@@ -170,14 +167,14 @@ height: 100%;
 }
 #home-overlay h1 {
   font-weight: bold;
-  font-family: 'Roboto', serif;
+  font-family: 'Helvetica Neue', serif;
 }
 .alert-row {
   background:#ff6961;
   color:white;
 }
 h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
-  font-family: 'Roboto', serif;
+  font-family: 'Helvetica Neue', serif;
 }
 .alert-box-outline {
   border: 1px solid gray;
@@ -217,7 +214,7 @@ h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
   flex-basis: 200px;
 }
 #homeNavList a {
-  font-family: 'Roboto', Arial;
+  font-family: 'Helvetica Neue', serif;
   text-shadow:none;
   color:white;
 }
@@ -245,7 +242,7 @@ h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
 .footer {
   text-align: center;
   padding:10px;
-  font-family: 'Roboto', Arial;
+  font-family: 'Helvetica Neue', serif;
 }
 #homeNavList > .container > ul > li > a {
   font-weight: bold;
@@ -267,7 +264,7 @@ h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
 }
 .container-out p, .container-out .container > ul > li {
   line-height:1.75em;
-  font-size:1.05em;
+  font-size:1.2em;
 }
 .container-out a {
   text-decoration:underline;
@@ -278,4 +275,15 @@ h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
   padding:40px 30px;
   margin:20px 0;
   border-radius:10px;
+}
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+}
+.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
 }
