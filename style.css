@@ -122,6 +122,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Helvetica Neue', serif;
   font-weight: bold;
 }
+h1 i, h2 i, h3 i, h4 i, h5 i, h6 i {
+  font-family: 'Helvetica Neue', serif;
+  font-weight: bold;
+}
 .img-cover {
   background-size: cover;
 }
