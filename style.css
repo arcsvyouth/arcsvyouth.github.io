@@ -1,7 +1,7 @@
 
 .navbar-default .navbar-nav>li>a {
   color: #777;
-  font-family: 'Helvetica Neue', serif;
+  font-family: 'Helvetica Neue', sans-serif;
 }
 .navbar-default .navbar-brand {
   color: #777;
@@ -85,7 +85,7 @@ body {
 }
 .bold-serif {
   font-weight: bold;
-  font-family: 'Helvetica Neue', serif;
+  font-family: 'Helvetica Neue', sans-serif;
 }
 .jumbotron-clear {
   background: transparent;
@@ -97,7 +97,7 @@ body {
 }
 .header-jumbo h1 {
   font-weight: bold;
-  font-family: 'Helvetica Neue', serif;
+  font-family: 'Helvetica Neue', sans-serif;
   font-size:28px;
   text-align: center;
 }
@@ -111,7 +111,7 @@ body {
 }
 .subheader-jumbo h3 {
   font-weight: bold;
-  font-family: 'Helvetica Neue', serif;
+  font-family: 'Helvetica Neue', sans-serif;
   margin-bottom:20px;
 }
 * {
@@ -119,11 +119,11 @@ body {
   line-height: 1.5em;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Helvetica Neue', serif;
+  font-family: 'Helvetica Neue', sans-serif;
   font-weight: bold;
 }
 h1 i, h2 i, h3 i, h4 i, h5 i, h6 i {
-  font-family: 'Helvetica Neue', serif;
+  font-family: 'Helvetica Neue', sans-serif;
   font-weight: bold;
 }
 .img-cover {
@@ -172,14 +172,14 @@ height: 100%;
 }
 #home-overlay h1 {
   font-weight: bold;
-  font-family: 'Helvetica Neue', serif;
+  font-family: 'Helvetica Neue', sans-serif;
 }
 .alert-row {
   background:#ff6961;
   color:white;
 }
 h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
-  font-family: 'Helvetica Neue', serif;
+  font-family: 'Helvetica Neue', sans-serif;
 }
 .alert-box-outline {
   border: 1px solid gray;
@@ -219,7 +219,7 @@ h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
   flex-basis: 200px;
 }
 #homeNavList a {
-  font-family: 'Helvetica Neue', serif;
+  font-family: 'Helvetica Neue', sans-serif;
   text-shadow:none;
   color:white;
 }
@@ -247,7 +247,7 @@ h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
 .footer {
   text-align: center;
   padding:10px;
-  font-family: 'Helvetica Neue', serif;
+  font-family: 'Helvetica Neue', sans-serif;
 }
 #homeNavList > .container > ul > li > a {
   font-weight: bold;
