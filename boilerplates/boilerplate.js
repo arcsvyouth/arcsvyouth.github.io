@@ -1,4 +1,4 @@
-init();
+
 function init() {
   fillHead();
   fillImport();
@@ -11,6 +11,7 @@ if (!window.XMLHttpRequest && 'ActiveXObject' in window) {
 }
 function fillNav(activeNumber) {
   var xhr= new XMLHttpRequest();
+  document.querySelector("body").style.padding = "70px 0 0 0";
   xhr.open('GET', 'https://arcsvyouth.github.io/boilerplates/nav-boilerplate.html', true);
   xhr.onreadystatechange= function() {
       if (this.readyState!==4) return;
@@ -18,14 +19,16 @@ function fillNav(activeNumber) {
         alert("Error. This page requires Javascript and an Internet connection to load.");
         return; // or whatever error handling you want
       }
-      document.body.padding = "70px 0 0 0";
+      
       document.getElementById('nav').innerHTML= this.responseText;
+      document.querySelector("body").style.padding = "0";
       if (activeNumber >= 0) {
         document.querySelectorAll(".nav>li")[activeNumber].classList.add("active");
       }
 
   };
   xhr.send();
+  
 }
 function fillHead() {
   var xhr= new XMLHttpRequest();
