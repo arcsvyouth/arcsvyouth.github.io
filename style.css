@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 @import 'css/bootstrap.min.css';
+
+#announcement-bar {
+  text-align: center;
+  background-color:#61B329;
+  color:white;
+  padding:10px 20px;
+}
+#announcement-bar a {
+  color:white;
+  text-decoration: underline;
+}
+#announcement-bar p {
+  margin:0;
+  font-size: 1.2em;
+}
 .navbar-default .navbar-nav>li>a {
   color: #777;
   

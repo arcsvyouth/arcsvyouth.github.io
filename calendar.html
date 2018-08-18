@@ -4,7 +4,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ARCSV Youth</title>
-<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 <link rel="stylesheet" href="style.css" type="text/css">
@@ -38,32 +37,13 @@
 }
 
 </style>
+<script type="text/javascript" src="boilerplates/boilerplate.js">
+  </script>
 </head>
 <body>
-  
   <!--navbar-->
-  <nav class="navbar navbar-default">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav-calendar" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a href="index.html" class="navbar-brand"><div></div></a>
-      </div>
-      <div class="collapse navbar-collapse" id="main-nav-calendar">
-        <ul class="nav navbar-nav">
-          <li><a href="upcoming.html">Upcoming</a></li>
-          <li><a href="committees.html">Committees</a></li>
-          <li><a href="newsletters.html">Newsletters</a></li>
-          <li class="active"><a href="#">Calendar</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  <div id="nav">
+  </div>
   <!--navbar ends-->
   <div class="jumbotron header-jumbo">
     <div class="container">
@@ -85,7 +65,9 @@
 
 <hr />
 
-
+<script type="text/javascript">
+  fillNav(0);
+</script>
 <!--jquery and Bootstrap javascript-->
   <script
     src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
