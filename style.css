@@ -1,6 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 @import 'css/bootstrap.min.css';
 
+#construction {
+  position:fixed;
+  background-color:tomato;
+  color:white;
+  z-index: 2;
+  padding:5px 20px 15px 20px;
+  width:250px;
+  margin:30px;
+  border-radius:10px;
+  box-shadow:0 0 15px black;
+}
+#construction h1 {
+  text-align:center;
+  font-weight:bold;
+  font-size:1.5em;
+}
+
 #announcement-bar {
   text-align: center;
   background-color:#61B329;
@@ -142,7 +159,8 @@ body {
   margin-bottom:20px;
 }
 * {
-  font-family: 'Roboto',sans-serif;
+  font-family: 'Roboto','Arial', sans-serif;
+  font-weight:lighter;
   line-height: 1.5em;
 }
 h1, h2, h3, h4, h5, h6 {
