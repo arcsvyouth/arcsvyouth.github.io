@@ -1,0 +1,77 @@
+
+
+/* Code for the announcement bar above the nav */
+#announcement-bar {
+  text-align: center;
+  background-color:#FF5F6D;
+  color:white;
+  padding:10px 20px;
+}
+  #announcement-bar a {
+    color:white;
+    text-decoration: underline;
+  }
+  #announcement-bar p {
+    margin:0;
+    font-size: 1.2em;
+  }
+
+
+.navbar-default .navbar-nav>li>a { /* All navbar links */
+  color: #777;
+}
+  .navbar-default .navbar-nav>li>a:hover { /* All navbar links have no color change on hover */
+    color: #777;
+  }
+
+.navbar-brand {
+  padding-top:10px;
+  padding-bottom:10px;
+}
+  .navbar-brand > div { /* Creates the logo image inside the nav brand */
+    width:30px;
+    height:30px;
+    background-image:url("../utility/rclogo-shade3.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+  }
+  .navbar-brand > img { /* For old nav versions that use an img for the logo image */
+    width:30px;
+    height:30px;
+  }
+
+.navbar-default { /* The entire navbar */
+  border-radius: 0;
+  background: white;
+  border:none;
+  margin-bottom:0;
+}
+
+
+/* Navbar resizing when not in mobile */
+@media all and (min-width: 768px) {
+  .navbar-default {
+    height: 70px;
+  }
+  .navbar-brand {
+    height: 70px;
+    padding: 0 20px;
+    display:flex;
+    align-items:center;
+  }
+  .navbar-default .navbar-nav>li>a, .navbar-default .navbar-header>.navbar-brand { /* Regular nav link style */
+    padding: 25px 20px 22px 20px;
+    transition: border-color .5s;
+    border-bottom-color: transparent; /* Have to keep the 3px width or else the text moves */
+  }
+    .navbar-default .navbar-nav>li>a:hover { /* Darken each link and create bottom border when hovered */
+      color: #555;
+      background-color:white;
+      border-bottom:3px solid #777;
+    }
+    .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover { /* Darken link and create bottom border when active link is hovered on */
+      color: #555;
+      background-color:white;
+      border-bottom:3px solid #555;
+    }
+}

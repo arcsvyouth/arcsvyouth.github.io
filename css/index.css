@@ -1,0 +1,46 @@
+
+/* Code for the main landing image screen */
+#home-overlay { /* Fill the height of the screen and keep elements inside centered */
+  width:100%;
+  height:100vh;
+  display:flex;
+  align-items:center;
+  min-height:300px;
+}
+#home-overlay > .jumbotron-clear > h1, #home-overlay > .jumbotron-clear > h2 { /* Text inside the landing screen */
+  color: white;
+  text-shadow: 0px 0px 20px #111;
+}
+	#home-overlay h1 {
+	  font-weight: bold;
+	}
+
+/* Code for the sitemap below the landing screen */
+#homeNavList {
+  background: #222;
+  padding: 40px 0;
+  color:white;
+}
+#homeNavList ul {
+  list-style:none;
+  padding-left:15px;
+}
+	#homeNavList a {
+	  text-shadow:none;
+	  color:white;
+	}
+#homeNavList div > ul { /* First layer of ul evenly arranged in space */
+  display:flex;
+  justify-content: space-between;
+  list-style:none;
+  padding-left:0;
+  flex-wrap: wrap;
+}
+	#homeNavList div > ul > li {
+	  padding: 0 10px;
+	  margin: 10px 0;
+	  flex-basis: 200px;
+	}
+	#homeNavList > .container > ul > li > a {
+	  font-weight: bold;
+	}
