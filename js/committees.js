@@ -5,7 +5,7 @@ var committees = [
 		"description": "The Blood Services Committee supports the American Red Cross by encouraging communities to donate blood in order to combat the large overarching issue of blood shortage, as well as collaborating with the biomedical unit to achieve goals. We reach out through health fairs and mobile blood donation centers, and offer volunteering, donating, and educational experiences for all members.",
 		"times": "1st and 3rd Sunday 11am-12pm",
 		"presentation": "https://docs.google.com/presentation/d/1w2r5fOr-QamnUBaOVp7F97MphNYnfpwg7m5d4oFUIzg/edit",
-		"app": ""
+		"app": "https://docs.google.com/forms/d/e/1FAIpQLScOW-s0B0Rw_T1oZnHxPOv3A-SfC7BaOIiK_pbZXThOhB8XQA/viewform"
 	},
 	{
 		"name": "Disaster",
@@ -21,7 +21,7 @@ var committees = [
 		"description": "The Health and Safety Committee’s mission is the bring basic aid training and CPR to the community. We strive to promote practical safety techniques and health awareness within the community. We reach out to our community by instructing others in topics such as CPR and First-Aid as well as through volunteering, educating, and donating. We as a committee are able to teach basic aid classes at the chapter later in the semester, so look forward to that!",
 		"times": "2nd and 4th Sunday 10-11am",
 		"presentation": "https://docs.google.com/presentation/d/1QfNxnYNf3flHiTB2PM90kpjTs0420B-OYUE-Dk9p8ig/edit#slide=id.p",
-		"app": ""
+		"app": "https://docs.google.com/document/d/1b4mroXIksugkQFrhJehq5GlT7qq4TXsDPMaCU1SAfmg/edit"
 	},
 	{
 		"name": "International/SAF",
