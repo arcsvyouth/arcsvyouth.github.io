@@ -8,7 +8,8 @@
   min-height:300px;
 }
 #home-overlay > .jumbotron-clear {
-  margin-bottom:0;
+  margin:auto;
+  text-align:center;
 }
 #home-overlay > .jumbotron-clear > h1, #home-overlay > .jumbotron-clear > h2 { /* Text inside the landing screen */
   color: white;
@@ -16,7 +17,11 @@
 }
 	#home-overlay h1 {
 	  font-weight: bold;
+    font-size:50px;
 	}
+  #home-overlay h2 {
+    font-size:20px;
+  }
 
 /* Code for the sitemap below the landing screen */
 #homeNavList {
