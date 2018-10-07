@@ -23,15 +23,22 @@ var eventsList = [
 		"date": "August 26 (Sunday) 10am-4pm",
 		"desc": '<p>We are inviting all of you to attend this year’s very first Red Cross Club Bootcamp at the Silicon Valley Red Cross Chapter (2731 N 1st St, San Jose, CA 95134)! The Bootcamp will include presentations on Red Cross youth initiatives, committees, and preparation for the upcoming school year. <a href="#club-bootcamp">Read more above.</a></p>',
 		"type": types.all,
+		"visible": false
+	},
+	{
+		"name": "Committee Apps Extended",
+		"date": "",
+		"desc": '<p>All committee apps were originally due September 30, but for clubs who began meetings after this deadline, we will still accept applications. Read more about our different committees and access their apps on our <a href="committees.html">Committees page</a>.</p>',
+		"type": types.all,
 		"visible": true
 	},
 	{
-		"name": "Committee Apps Due",
-		"date": "September 30 (Sunday) 11:59pm",
-		"desc": '<p>All committee apps are due September 30 unless otherwise stated on the app. Read more about our different committees and access their apps on our <a href="committees.html">Committees page</a>.</p>',
-		"type": types.all,
+		"name": "Liaison Meeting",
+		"date": "October 7 (Sunday) 11am",
+		"desc": '<p>One officer from each club must attend.</p>',
+		"type": types.officers,
 		"visible": true
-	}
+	},
 ];
 
 
