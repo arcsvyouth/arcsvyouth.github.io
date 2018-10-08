@@ -28,17 +28,59 @@ var eventsList = [
 	{
 		"name": "Committee Apps Extended",
 		"date": "",
-		"desc": '<p>All committee apps were originally due September 30, but for clubs who began meetings after this deadline, we will still accept applications. Read more about our different committees and access their apps on our <a href="committees.html">Committees page</a>.</p>',
+		"desc": '<p>All committee apps were due September 30. Read more about our different committees and access their apps on our <a href="committees.html">Committees page</a>.</p>',
 		"type": types.all,
 		"visible": true
 	},
 	{
 		"name": "Liaison Meeting",
-		"date": "October 7 (Sunday) 11am",
+		"date": "October 7 (Sunday) 10am",
 		"desc": '<p>One officer from each club must attend.</p>',
 		"type": types.officers,
 		"visible": true
 	},
+	{
+		"name": "Blood Services",
+		"date": "October 7 (Sunday) 11am",
+		"desc": '<p>The first meeting of the Blood Services committee.</p>',
+		"type": types.committee,
+		"visible": true
+	},
+	{
+		"name": "Preparedness",
+		"date": "October 7 (Sunday) 11am",
+		"desc": '<p>The first meeting of the Preparedness committee.</p>',
+		"type": types.committee,
+		"visible": true
+	},
+	{
+		"name": "International/SAF",
+		"date": "October 7 (Sunday) 12pm",
+		"desc": '<p>The first meeting of the International/SAF committee.</p>',
+		"type": types.committee,
+		"visible": true
+	},
+	{
+		"name": "Disaster",
+		"date": "October 13 (Saturday) 10am",
+		"desc": '<p>The first meeting of the Disaster committee.</p>',
+		"type": types.committee,
+		"visible": true
+	},
+	{
+		"name": "Health and Safety",
+		"date": "October 14 (Sunday) 10am",
+		"desc": '<p>The first meeting of the Health and Safety committee.</p>',
+		"type": types.committee,
+		"visible": true
+	},
+	{
+		"name": "Spirit",
+		"date": "October 14 (Sunday) 11am",
+		"desc": '<p>The first meeting of the Spirit committee.</p>',
+		"type": types.committee,
+		"visible": true
+	}
 ];
 
 
