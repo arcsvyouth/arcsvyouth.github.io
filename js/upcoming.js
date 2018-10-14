@@ -30,7 +30,7 @@ var eventsList = [
 		"date": "",
 		"desc": '<p>All committee apps were due September 30. Read more about our different committees and access their apps on our <a href="committees.html">Committees page</a>.</p>',
 		"type": types.all,
-		"visible": true
+		"visible": false
 	},
 	{
 		"name": "Liaison Meeting",
@@ -80,6 +80,13 @@ var eventsList = [
 		"desc": '<p>The first meeting of the Spirit committee.</p>',
 		"type": types.committee,
 		"visible": true
+	},
+	{
+		"name": "Sound the Alarm",
+		"date": "October 27 (Saturday) 9am-3pm",
+		"desc": '<p></p>',
+		"type": types.all,
+		"visible": false
 	}
 ];
 
