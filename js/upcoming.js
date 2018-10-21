@@ -37,56 +37,63 @@ var eventsList = [
 		"date": "October 7 (Sunday) 10am",
 		"desc": '<p>One officer from each club must attend.</p>',
 		"type": types.officers,
-		"visible": true
+		"visible": false
 	},
 	{
 		"name": "Blood Services",
 		"date": "October 7 (Sunday) 11am",
 		"desc": '<p>The first meeting of the Blood Services committee.</p>',
 		"type": types.committee,
-		"visible": true
+		"visible": false
 	},
 	{
 		"name": "Preparedness",
 		"date": "October 7 (Sunday) 11am",
 		"desc": '<p>The first meeting of the Preparedness committee.</p>',
 		"type": types.committee,
-		"visible": true
+		"visible": false
 	},
 	{
 		"name": "International/SAF",
 		"date": "October 7 (Sunday) 12pm",
 		"desc": '<p>The first meeting of the International/SAF committee.</p>',
 		"type": types.committee,
-		"visible": true
+		"visible": false
 	},
 	{
 		"name": "Disaster",
 		"date": "October 13 (Saturday) 10am",
 		"desc": '<p>The first meeting of the Disaster committee.</p>',
 		"type": types.committee,
-		"visible": true
+		"visible": false
 	},
 	{
 		"name": "Health and Safety",
 		"date": "October 14 (Sunday) 10am",
 		"desc": '<p>The first meeting of the Health and Safety committee.</p>',
 		"type": types.committee,
-		"visible": true
+		"visible": false
 	},
 	{
 		"name": "Spirit",
 		"date": "October 14 (Sunday) 11am",
 		"desc": '<p>The first meeting of the Spirit committee.</p>',
 		"type": types.committee,
-		"visible": true
+		"visible": false
 	},
 	{
 		"name": "Sound the Alarm",
 		"date": "October 27 (Saturday) 9am-3pm",
-		"desc": '<p></p>',
+		"desc": '<p>Help us #EndHomeFires by installing smoke alarms and providing fire safety education within your community. Our Sound the Alarm events are generally held one Saturday every month. The event on October 27th (Saturday) from 9am-3pm is at <b>Village of the Four Seasons Mobile Home Park</b>: 200 Ford Road, San Jose 95138. Sign up on <a href="https://stasanjose.wufoo.com/forms/k1p8p5vt0z2iieq/" target="_blank">this form</a>. Here is the <a href="https://www.facebook.com/events/1871198016260819/" target="_blank">facebook event</a>.</p>',
 		"type": types.all,
-		"visible": false
+		"visible": true
+	},
+	{
+		"name": "Liaison Meeting",
+		"date": "October 21 (Sunday) 10am",
+		"desc": '<p>One officer from each club must attend.</p>',
+		"type": types.officers,
+		"visible": true
 	}
 ];
 
