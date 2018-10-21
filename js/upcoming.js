@@ -82,17 +82,24 @@ var eventsList = [
 		"visible": false
 	},
 	{
-		"name": "Sound the Alarm",
-		"date": "October 27 (Saturday) 9am-3pm",
-		"desc": '<p>Help us #EndHomeFires by installing smoke alarms and providing fire safety education within your community. Our Sound the Alarm events are generally held one Saturday every month. The event on October 27th (Saturday) from 9am-3pm is at <b>Village of the Four Seasons Mobile Home Park</b>: 200 Ford Road, San Jose 95138. Sign up on <a href="https://stasanjose.wufoo.com/forms/k1p8p5vt0z2iieq/" target="_blank">this form</a>. Here is the <a href="https://www.facebook.com/events/1871198016260819/" target="_blank">facebook event</a>.</p>',
-		"type": types.all,
-		"visible": true
-	},
-	{
 		"name": "Liaison Meeting",
 		"date": "October 21 (Sunday) 10am",
 		"desc": '<p>One officer from each club must attend.</p>',
 		"type": types.officers,
+		"visible": true
+	},
+	{
+		"name": "Sound the Alarm",
+		"date": "October 27 (Saturday) 9am-3pm",
+		"desc": '<p>Help us #EndHomeFires by installing smoke alarms and providing fire safety education within your community. Our Sound the Alarm events are generally held one Saturday every month. The event on October 27th (Saturday) from 9am-3pm is at <b>Village of the Four Seasons Mobile Home Park</b>: 200 Ford Road, San Jose 95138. Sign up on <a href="https://stasanjose.wufoo.com/forms/k1p8p5vt0z2iieq/" target="_blank">this form</a>. Here is the <a href="https://www.facebook.com/events/1871198016260819/" target="_blank">facebook event</a>. The next Sound the Alarm is on December 2 and location is to be announced.</p>',
+		"type": types.all,
+		"visible": true
+	},
+	{
+		"name": "Veterans' Day Parade",
+		"date": "November 11 (Sunday) 10:30am-2pm",
+		"desc": '<p>March with Red Cross to support veterans. This is the 100th anniversary of the parade and the 25th year our Red Cross chapter has participated. Sign up at <a href="https://tinyurl.com/vetparade2018">tinyurl.com/vetparade2018</a>. Our International/SAF committee is making banners for the parade, and we would also love for clubs to make banners.</p>',
+		"type": types.all,
 		"visible": true
 	}
 ];
