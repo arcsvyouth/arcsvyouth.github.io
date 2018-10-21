@@ -98,7 +98,7 @@ var eventsList = [
 	{
 		"name": "Veterans' Day Parade",
 		"date": "November 11 (Sunday) 10:30am-2pm",
-		"desc": '<p>March with Red Cross to support veterans. This is the 100th anniversary of the parade and the 25th year our Red Cross chapter has participated. Sign up at <a href="https://tinyurl.com/vetparade2018">tinyurl.com/vetparade2018</a>. Our International/SAF committee is making banners for the parade, and we would also love for clubs to make banners.</p>',
+		"desc": '<p>March with Red Cross to support veterans. The parade begins at the SAP arena in Downtown San Jose. This is the 100th anniversary of the parade and the 25th year our Red Cross chapter has participated. Sign up at <a href="https://tinyurl.com/vetparade2018">tinyurl.com/vetparade2018</a>. Our International/SAF committee is making banners for the parade. If your club is interested in making banners, contact the coordinators at <i>svrc.internationals@gmail.com</i>.</p>',
 		"type": types.all,
 		"visible": true
 	}
