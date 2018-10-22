@@ -84,7 +84,7 @@ var eventsList = [
 	{
 		"name": "Liaison Meeting",
 		"date": "October 21 (Sunday) 10am",
-		"desc": '<p>One officer from each club must attend.</p>',
+		"desc": '<p>One officer from each club must attend. Here are the <a href="https://docs.google.com/presentation/d/1eAn5vWQPp6hAhLmQRFWfVurNZend40OwUD5Jn677PEM/edit?fbclid=IwAR04NnbYKQ11ZrtRR-XNhaKA6bGCOzm_RbPPtLJZf77-2PGWq7t5ndcmFCA#slide=id.g452dad6361_0_53" target="_blank">slides</a> from the liaison meeting.</p>',
 		"type": types.officers,
 		"visible": true
 	},
