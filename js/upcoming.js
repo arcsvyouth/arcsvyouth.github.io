@@ -86,7 +86,7 @@ var eventsList = [
 		"date": "October 21 (Sunday) 10am",
 		"desc": '<p>One officer from each club must attend. Here are the <a href="https://docs.google.com/presentation/d/1eAn5vWQPp6hAhLmQRFWfVurNZend40OwUD5Jn677PEM/edit?fbclid=IwAR04NnbYKQ11ZrtRR-XNhaKA6bGCOzm_RbPPtLJZf77-2PGWq7t5ndcmFCA#slide=id.g452dad6361_0_53" target="_blank">slides</a> from the liaison meeting.</p>',
 		"type": types.officers,
-		"visible": true
+		"visible": false
 	},
 	{
 		"name": "Sound the Alarm",
@@ -96,9 +96,44 @@ var eventsList = [
 		"visible": true
 	},
 	{
+		"name": "Liaison Meeting",
+		"date": "November 3 (Sunday) 10am",
+		"desc": '<p>One officer from each club must attend. Here are the <a href="https://docs.google.com/presentation/d/1eAn5vWQPp6hAhLmQRFWfVurNZend40OwUD5Jn677PEM/edit?fbclid=IwAR04NnbYKQ11ZrtRR-XNhaKA6bGCOzm_RbPPtLJZf77-2PGWq7t5ndcmFCA#slide=id.g452dad6361_0_53" target="_blank">slides</a> from the liaison meeting.</p>',
+		"type": types.officers,
+		"visible": true
+	},
+	{
 		"name": "Veterans' Day Parade",
 		"date": "November 11 (Sunday) 10:30am-2pm",
-		"desc": '<p>March with Red Cross to support veterans. The parade begins at the SAP arena in Downtown San Jose. This is the 100th anniversary of the parade and the 25th year our Red Cross chapter has participated. Sign up at <a href="https://tinyurl.com/vetparade2018">tinyurl.com/vetparade2018</a>. Our International/SAF committee is making banners for the parade. If your club is interested in making banners, contact the coordinators at <i>svrc.internationals@gmail.com</i>.</p>',
+		"desc": '<p>March with Red Cross to support veterans. The parade begins at the SAP arena in Downtown San Jose. This is the 100th anniversary of the parade and the 25th year our Red Cross chapter has participated. Sign up at <a href="https://tinyurl.com/vetparade2018">tinyurl.com/vetparade2018</a> to coordinate with our youth committee (so the youth can walk together in the parade!). Our International/SAF committee is making banners for the parade. For hours, sign up for the "Veterans Parade Staff" event on Volunteer Connection. If your club is interested in making banners, contact the coordinators at <i>svrc.internationals@gmail.com</i>.</p>',
+		"type": types.all,
+		"visible": true
+	},
+	{
+		"name": "Movie Under the Stars",
+		"date": "November 16 (Friday)",
+		"desc": '<p>Unwind and watch a movie on the patio! There will be popcorn for sale. Come in comfy clothes and bring a blanket!</p>',
+		"type": types.all,
+		"visible": true
+	},
+	{
+		"name": "Health and Safety Training",
+		"date": "November 25 (Sunday) 9:30-2pm",
+		"desc": '<p>Become a Health and Safety Instructor through this training at the chapter! Learn about first aid and CPR topics. This is open to all youth and lunch is provided.</p>',
+		"type": types.all,
+		"visible": true
+	},
+	{
+		"name": "Totes of Hope Packaging Event",
+		"date": "November 30 (Friday) TBA",
+		"desc": '<p>Over the entire month of November, we are collecting donations for <b>Totes of Hope</b>, a personal care kit drive for homeless veterans. Bring your donations to the Youth Services room in the chapter, or collect donations within your club and have an officer bring them all. On <b>November 30th</b>, we will host a packaging event at the chapter before sending our totes off to veterans hospitals and outreach programs! <a href="newsletters/11-18.html#totes" target="_blank">Learn more on how you and your club can help</a>.</p>',
+		"type": types.all,
+		"visible": true
+	},
+	{
+		"name": "Sound the Alarm",
+		"date": "December 1 (Saturday) 9am-3pm",
+		"desc": '<p>Help us #EndHomeFires by installing smoke alarms and providing fire safety education within your community. Our Sound the Alarm events are generally held one Saturday every month. The location and link to sign up will be released soon.</p>',
 		"type": types.all,
 		"visible": true
 	}

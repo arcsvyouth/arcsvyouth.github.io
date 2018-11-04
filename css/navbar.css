@@ -3,7 +3,7 @@
 /* Code for the announcement bar above the nav */
 #announcement-bar {
   text-align: center;
-  background-color:mediumseagreen;
+  background-color:#ffbd4a;
   color:white;
   padding:10px 20px;
 }
