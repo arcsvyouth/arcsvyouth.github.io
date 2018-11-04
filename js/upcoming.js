@@ -93,12 +93,12 @@ var eventsList = [
 		"date": "October 27 (Saturday) 9am-3pm",
 		"desc": '<p>Help us #EndHomeFires by installing smoke alarms and providing fire safety education within your community. Our Sound the Alarm events are generally held one Saturday every month. The event on October 27th (Saturday) from 9am-3pm is at <b>Village of the Four Seasons Mobile Home Park</b>: 200 Ford Road, San Jose 95138. Sign up on <a href="https://stasanjose.wufoo.com/forms/k1p8p5vt0z2iieq/" target="_blank">this form</a>. Here is the <a href="https://www.facebook.com/events/1871198016260819/" target="_blank">facebook event</a>. The next Sound the Alarm is on December 2 and location is to be announced.</p>',
 		"type": types.all,
-		"visible": true
+		"visible": false
 	},
 	{
 		"name": "Liaison Meeting",
 		"date": "November 3 (Sunday) 10am",
-		"desc": '<p>One officer from each club must attend. Here are the <a href="https://docs.google.com/presentation/d/1eAn5vWQPp6hAhLmQRFWfVurNZend40OwUD5Jn677PEM/edit?fbclid=IwAR04NnbYKQ11ZrtRR-XNhaKA6bGCOzm_RbPPtLJZf77-2PGWq7t5ndcmFCA#slide=id.g452dad6361_0_53" target="_blank">slides</a> from the liaison meeting.</p>',
+		"desc": '<p>One officer from each club must attend.</p>',
 		"type": types.officers,
 		"visible": true
 	},
@@ -114,6 +114,13 @@ var eventsList = [
 		"date": "November 16 (Friday)",
 		"desc": '<p>Unwind and watch a movie on the patio! There will be popcorn for sale. Come in comfy clothes and bring a blanket!</p>',
 		"type": types.all,
+		"visible": true
+	},
+	{
+		"name": "Liaison Meeting",
+		"date": "November 18 (Sunday) 10am",
+		"desc": '<p>One officer from each club must attend.</p>',
+		"type": types.officers,
 		"visible": true
 	},
 	{
