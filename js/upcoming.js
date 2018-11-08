@@ -105,7 +105,7 @@ var eventsList = [
 	{
 		"name": "Veterans' Day Parade",
 		"date": "November 11 (Sunday) 10:30am-2pm",
-		"desc": '<p>March with Red Cross to support veterans. The parade begins at the SAP arena in Downtown San Jose. This is the 100th anniversary of the parade and the 25th year our Red Cross chapter has participated. Sign up at <a href="https://tinyurl.com/vetparade2018">tinyurl.com/vetparade2018</a> to coordinate with our youth committee (so the youth can walk together in the parade!). Our International/SAF committee is making banners for the parade. For hours, sign up for the "Veterans Parade Staff" event on Volunteer Connection. If your club is interested in making banners, contact the coordinators at <i>svrc.internationals@gmail.com</i>.</p>',
+		"desc": '<p>March with Red Cross to support veterans. The parade begins at the SAP arena in Downtown San Jose. This is the 100th anniversary of the parade and the 25th year our Red Cross chapter has participated. Wear Red Cross merch/patriotic colors and decorate with face paint! Register on Volunteer Connection under the event name “Veteran’s Day Parade Staff” and text Jolie at (408) 439-1935 if you have trouble finding the meeting location. Also sign up at <a href="https://tinyurl.com/vetparade2018">tinyurl.com/vetparade2018</a> to coordinate with our International/SAF committee, who is bringing banners for the parade. If your club is interested in making banners, contact the coordinators at <i>svrc.internationals@gmail.com</i>.</p>',
 		"type": types.all,
 		"visible": true
 	},
@@ -113,6 +113,13 @@ var eventsList = [
 		"name": "Movie Under the Stars",
 		"date": "November 16 (Friday)",
 		"desc": '<p>Unwind and watch a movie on the patio! There will be popcorn for sale. Come in comfy clothes and bring a blanket!</p>',
+		"type": types.all,
+		"visible": true
+	},
+	{
+		"name": "Blood Donor Card Making",
+		"date": "November 18 (Sunday) 11am-12pm",
+		"desc": '<p>Come out to the chapter from 11am-12pm to make thank-you cards for our wonderful blood donors to receive during the holiday time!  Supplies will be provided but feel free to bring your own (there will be food too!).</p>',
 		"type": types.all,
 		"visible": true
 	},
@@ -126,7 +133,7 @@ var eventsList = [
 	{
 		"name": "Health and Safety Training",
 		"date": "November 25 (Sunday) 9:30-2pm",
-		"desc": '<p>Become a Health and Safety Instructor through this training at the chapter! Learn about first aid and CPR topics. This is open to all youth and lunch is provided.</p>',
+		"desc": '<p>Become a Health and Safety Instructor through this training at the chapter! Learn about first aid and CPR topics. This is open to all youth and lunch is provided. Limited spots so sign up soon! (An email will be sent indicating if there is space in the class for you.)</p>',
 		"type": types.all,
 		"visible": true
 	},
