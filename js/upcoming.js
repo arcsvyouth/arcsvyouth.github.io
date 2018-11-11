@@ -146,8 +146,8 @@ var eventsList = [
 	},
 	{
 		"name": "Sound the Alarm",
-		"date": "December 1 (Saturday) 9am-3pm",
-		"desc": '<p>Help us #EndHomeFires by installing smoke alarms and providing fire safety education within your community. Our Sound the Alarm events are generally held one Saturday every month. The location and link to sign up will be released soon.</p>',
+		"date": "December 1 (Saturday) 8:30am-2:30pm",
+		"desc": '<p>Help us #EndHomeFires by installing smoke alarms and providing fire safety education within your community. Our Sound the Alarm events are generally held one Saturday every month. There is no age limit to participate.</p><p>The next event is <b>December 1st (Saturday)</b> at the County Fair Mobile Estate. Sign up at <a href="http://tiny.cc/STADec1" target="_blank">http://tiny.cc/STADec1</a> and contact <b>rcdisastercommittee@gmail.com</b> for any questions.</p>',
 		"type": types.all,
 		"visible": true
 	}
