@@ -117,6 +117,13 @@ var eventsList = [
 		"visible": true
 	},
 	{
+		"name": "Liaison Meeting",
+		"date": "November 18 (Sunday) 10-11am",
+		"desc": '<p>One officer from each club must attend.</p>',
+		"type": types.officers,
+		"visible": true
+	},
+	{
 		"name": "Blood Donor Card Making",
 		"date": "November 18 (Sunday) 11am-12pm",
 		"desc": '<p>Come out to the chapter from 11am-12pm to make thank-you cards for our wonderful blood donors to receive during the holiday time!  Supplies will be provided but feel free to bring your own (there will be food too!).</p>',
@@ -124,15 +131,15 @@ var eventsList = [
 		"visible": true
 	},
 	{
-		"name": "Liaison Meeting",
-		"date": "November 18 (Sunday) 10am",
-		"desc": '<p>One officer from each club must attend.</p>',
-		"type": types.officers,
+		"name": "CDE Training",
+		"date": "November 18 (Sunday) 11am-12:30pm",
+		"desc": '<p>Come to the chapter in meeting room 2 to be CDE trained and get the chance to present with an Americorp!</p>',
+		"type": types.all,
 		"visible": true
 	},
 	{
 		"name": "Health and Safety Training",
-		"date": "November 25 (Sunday) 9:30-2pm",
+		"date": "November 25 (Sunday) 9:30am-2pm",
 		"desc": '<p>Become a Health and Safety Instructor through this training at the chapter! Learn about first aid and CPR topics. This is open to all youth and lunch is provided. Limited spots so <a href="https://docs.google.com/forms/d/e/1FAIpQLSctDSxlLhKRXDB93YdtWp8twUCHvbviJPSJ2VbrsGrlgclh_g/viewform" target="_blank">sign up here soon</a>! (An email will be sent indicating if there is space in the class for you.)</p>',
 		"type": types.all,
 		"visible": true
