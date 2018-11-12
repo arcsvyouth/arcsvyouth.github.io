@@ -133,7 +133,7 @@ var eventsList = [
 	{
 		"name": "Health and Safety Training",
 		"date": "November 25 (Sunday) 9:30-2pm",
-		"desc": '<p>Become a Health and Safety Instructor through this training at the chapter! Learn about first aid and CPR topics. This is open to all youth and lunch is provided. Limited spots so sign up soon! (An email will be sent indicating if there is space in the class for you.)</p>',
+		"desc": '<p>Become a Health and Safety Instructor through this training at the chapter! Learn about first aid and CPR topics. This is open to all youth and lunch is provided. Limited spots so <a href="https://docs.google.com/forms/d/e/1FAIpQLSctDSxlLhKRXDB93YdtWp8twUCHvbviJPSJ2VbrsGrlgclh_g/viewform" target="_blank">sign up here soon</a>! (An email will be sent indicating if there is space in the class for you.)</p>',
 		"type": types.all,
 		"visible": true
 	},
