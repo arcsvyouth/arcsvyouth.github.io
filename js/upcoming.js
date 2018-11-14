@@ -111,8 +111,8 @@ var eventsList = [
 	},
 	{
 		"name": "Movie Under the Stars",
-		"date": "November 16 (Friday)",
-		"desc": '<p>Unwind and watch a movie on the patio! There will be popcorn for sale. Come in comfy clothes and bring a blanket!</p>',
+		"date": "November 16 (Friday) 6:30pm",
+		"desc": '<p>Unwind and watch a movie on the patio! There will be popcorn for sale for $2 to fundraise for upcoming NYIM events. <a href="https://docs.google.com/forms/d/1sD5rj_rplOzuSiTKYhpkXHkjmV1V8yykNTxOg1LJuio/edit" target="_blank">RSVP here</a>. Come in comfy clothes and bring a blanket!</p>',
 		"type": types.all,
 		"visible": true
 	},
