@@ -114,6 +114,7 @@ var eventsList = [
 		"date": "November 16 (Friday) 6:30pm",
 		"desc": '<p>Unwind and watch a movie on the patio! There will be popcorn for sale for $2 to fundraise for upcoming NYIM events. <a href="https://docs.google.com/forms/d/1sD5rj_rplOzuSiTKYhpkXHkjmV1V8yykNTxOg1LJuio/edit" target="_blank">RSVP here</a>. Come in comfy clothes and bring a blanket!</p>',
 		"type": types.all,
+		"tag": "movies",
 		"visible": true
 	},
 	{
@@ -149,6 +150,7 @@ var eventsList = [
 		"date": "November 30 (Friday) TBA",
 		"desc": '<p>Over the entire month of November, we are collecting donations for <b>Totes of Hope</b>, a personal care kit drive for homeless veterans. Bring your donations to the Youth Services room in the chapter, or collect donations within your club and have an officer bring them all. On <b>November 30th</b>, we will host a packaging event at the chapter before sending our totes off to veterans hospitals and outreach programs! <a href="newsletters/11-18.html#totes" target="_blank">Learn more on how you and your club can help</a>.</p>',
 		"type": types.all,
+		"tag": "totes",
 		"visible": true
 	},
 	{
@@ -170,6 +172,9 @@ for (var i = 0; i < eventsList.length; i++) {
 	if (eventsList[i].visible) {
 		rowBlock = document.createElement("div");
 		rowBlock.setAttribute("class","row-block");
+		if (eventsList[i].hasOwnProperty("tag")) {
+			rowBlock.setAttribute("id",eventsList[i].tag);
+		}
 
 		rowHead = document.createElement("div");
 		rowHead.setAttribute("class","row row-m-t row-table-head");
