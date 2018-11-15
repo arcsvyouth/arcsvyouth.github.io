@@ -147,7 +147,7 @@ var eventsList = [
 	},
 	{
 		"name": "Totes of Hope Packaging Event",
-		"date": "November 30 (Friday) TBA",
+		"date": "November 30 (Friday) 4:30-6:30pm",
 		"desc": '<p>Over the entire month of November, we are collecting donations for <b>Totes of Hope</b>, a personal care kit drive for homeless veterans. Bring your donations to the Youth Services room in the chapter, or collect donations within your club and have an officer bring them all. On <b>November 30th</b>, we will host a packaging event at the chapter before sending our totes off to veterans hospitals and outreach programs! <a href="newsletters/11-18.html#totes" target="_blank">Learn more on how you and your club can help</a>.</p>',
 		"type": types.all,
 		"tag": "totes",
