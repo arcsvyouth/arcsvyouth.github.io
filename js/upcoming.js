@@ -127,14 +127,14 @@ var eventsList = [
 	{
 		"name": "Blood Donor Card Making",
 		"date": "November 18 (Sunday) 11am-12pm",
-		"desc": '<p>Come out to the chapter from 11am-12pm to make thank-you cards for our wonderful blood donors to receive during the holiday time!  Supplies will be provided but feel free to bring your own (there will be food too!).</p>',
+		"desc": '<p>Come out to the chapter from 11am-12pm to make thank-you cards for our wonderful blood donors to receive during the holiday time!  Supplies will be provided but feel free to bring your own (there will be food too!). <a href="https://docs.google.com/forms/d/e/1FAIpQLSdpyWOzwoL4aFI98Q6a3AJOoZ_VDZ48-piG0S5AmZOjjA-eDQ/viewform" target="_blank">Sign up here.</a></p>',
 		"type": types.all,
 		"visible": true
 	},
 	{
 		"name": "CDE Training",
 		"date": "November 18 (Sunday) 11am-12:30pm",
-		"desc": '<p>Come to the chapter in meeting room 2 to be CDE trained and get the chance to present with an Americorp!</p>',
+		"desc": '<p>Come to the chapter in meeting room 2 to be CDE trained and get the chance to present with an Americorp! <a href="https://docs.google.com/forms/d/e/1FAIpQLSf8OvnZvPHgoOmC15R9GGji20pKv9Gzn6LjLqNT2dNFBJjsvg/viewform" target="_blank">Sign up here.</a></p>',
 		"type": types.all,
 		"visible": true
 	},
@@ -148,7 +148,7 @@ var eventsList = [
 	{
 		"name": "Totes of Hope Packaging Event",
 		"date": "November 30 (Friday) 4:30-6:30pm",
-		"desc": '<p>Over the entire month of November, we are collecting donations for <b>Totes of Hope</b>, a personal care kit drive for homeless veterans. Bring your donations to the Youth Services room in the chapter, or collect donations within your club and have an officer bring them all. On <b>November 30th</b>, we will host a packaging event at the chapter before sending our totes off to veterans hospitals and outreach programs! <a href="newsletters/11-18.html#totes" target="_blank">Learn more on how you and your club can help</a>.</p>',
+		"desc": '<p>Over the entire month of November, we are collecting donations for <b>Totes of Hope</b>, a personal care kit drive for homeless veterans. Bring your donations to the Youth Services room in the chapter, or collect donations within your club and have an officer bring them all. On <b>November 30th</b>, we will host a packaging event at the chapter before sending our totes off to veterans hospitals and outreach programs! <a href="https://docs.google.com/forms/d/1NqSMHWvA5FBKImZ8DG_zw_j18UzxSz9s6ONl9GoovAE/edit" target="_blank">Sign up for the packaging event</a> and <a href="newsletters/11-18.html#totes" target="_blank">learn more on how you and your club can help</a>.</p>',
 		"type": types.all,
 		"tag": "totes",
 		"visible": true
