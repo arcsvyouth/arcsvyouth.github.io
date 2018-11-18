@@ -100,14 +100,14 @@ var eventsList = [
 		"date": "November 3 (Sunday) 10am",
 		"desc": '<p>One officer from each club must attend.</p>',
 		"type": types.officers,
-		"visible": true
+		"visible": false
 	},
 	{
 		"name": "Veterans' Day Parade",
 		"date": "November 11 (Sunday) 10:30am-2pm",
 		"desc": '<p>March with Red Cross to support veterans. The parade begins at the SAP arena in Downtown San Jose. This is the 100th anniversary of the parade and the 25th year our Red Cross chapter has participated. Wear Red Cross merch/patriotic colors and decorate with face paint! Register on Volunteer Connection under the event name “Veteran’s Day Parade Staff” and text Jolie at (408) 439-1935 if you have trouble finding the meeting location. Also sign up at <a href="https://tinyurl.com/vetparade2018">tinyurl.com/vetparade2018</a> to coordinate with our International/SAF committee, who is bringing banners for the parade. If your club is interested in making banners, contact the coordinators at <i>svrc.internationals@gmail.com</i>.</p>',
 		"type": types.all,
-		"visible": true
+		"visible": false
 	},
 	{
 		"name": "Movie Under the Stars",
