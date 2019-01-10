@@ -163,7 +163,7 @@ var eventsList = [
 	{
 		"name": "Sound the Alarm Canvassing",
 		"date": "January 12 (Saturday) 10am-12pm",
-		"desc": '<p>Raise awareness of our <b>January 19th</b> Sound the Alarm in the La Buona Vita Mobile Home Community by canvassing. Volunteers will go house to house talking to residents and distributing doorhangers. Sign up link TBA.</p>',
+		"desc": '<p>Raise awareness of our <b>January 19th</b> Sound the Alarm in the La Buona Vita Mobile Home Community by canvassing. Volunteers will go house to house talking to residents and distributing doorhangers. <a href="https://goo.gl/forms/qyBA9E7opcW4Q3gf1" target="_blank">Sign up here.</a></p>',
 		"type": types.all,
 		"visible": true
 	},
