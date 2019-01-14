@@ -168,6 +168,13 @@ var eventsList = [
 		"visible": true
 	},
 	{
+		"name": "Fisher House Dinner",
+		"date": "January 18 (Friday) 5:30-7:30pm",
+		"desc": '<p>Youth volunteers will be going to the VA Hospital in Palo Alto to make dinner for veterans. This event is full.</p>',
+		"type": types.all,
+		"visible": true
+	},
+	{
 		"name": "Sound the Alarm",
 		"date": "January 19 (Saturday) 8:30am-3pm",
 		"desc": '<p>Help us #EndHomeFires by installing smoke alarms and providing fire safety education within your community. Our Sound the Alarm events are generally held one Saturday every month. There is no age restriction to participate.</p><p>The next event is <b>January 19th (Saturday)</b> at La Buona Vita Mobile Home Community. Sign up at <a href="http://tiny.cc/STAJan19" target="_blank">tiny.cc/STAJan19</a>. Meeting location will be announced. Contact <b>rcdisastercommittee@gmail.com</b> for any questions.</p>',
