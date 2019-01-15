@@ -177,7 +177,7 @@ var eventsList = [
 	{
 		"name": "Sound the Alarm",
 		"date": "January 19 (Saturday) 8:30am-3pm",
-		"desc": '<p>Help us #EndHomeFires by installing smoke alarms and providing fire safety education within your community. Our Sound the Alarm events are generally held one Saturday every month. There is no age restriction to participate.</p><p>The next event is <b>January 19th (Saturday)</b> at La Buona Vita Mobile Home Community. Sign up at <a href="http://tiny.cc/STAJan19" target="_blank">tiny.cc/STAJan19</a>. Meeting location will be announced. Contact <b>rcdisastercommittee@gmail.com</b> for any questions.</p>',
+		"desc": '<p>Help us #EndHomeFires by installing smoke alarms and providing fire safety education within your community. Our Sound the Alarm events are generally held one Saturday every month. There is no age restriction to participate.</p><p>The next event is <b>January 19th (Saturday)</b> at La Buona Vita Mobile Home Community. Sign up at <a href="http://tiny.cc/STAJan19" target="_blank">tiny.cc/STAJan19</a>. Meet at the La Buona Vita Clubhouse in the morning for check-in, breakfast, and training. Contact <b>rcdisastercommittee@gmail.com</b> for any questions.</p>',
 		"type": types.all,
 		"visible": true
 	},
