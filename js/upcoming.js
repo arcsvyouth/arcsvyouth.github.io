@@ -212,7 +212,7 @@ var eventsList = [
 	{
 		"name": "Sound the Alarm",
 		"date": "February 16 (Saturday) 8:30am-2pm",
-		"desc": '<p>Help us #EndHomeFires by installing smoke alarms and providing fire safety education within your community. Our Sound the Alarm events are generally held one Saturday every month. There is no age restriction to participate.</p><p>The next event is <b>February 16th (Saturday)</b> at Sunshadow Community, 1350 Panoche Avenue, San Jose. Sign up at <a href="http://tiny.cc/STAFeb16" target="_blank">tiny.cc/STAFeb16</a>. More information on meeting location TBA. Contact <b>rcdisastercommittee@gmail.com</b> for any questions.</p>',
+		"desc": '<p>Help us #EndHomeFires by installing smoke alarms and providing fire safety education within your community. Our Sound the Alarm events are generally held one Saturday every month. Volunteers must be 16 or older to enter homes and install alarms. Volunteers younger than 16 can participate by canvassing during the day.</p><p>The next event is <b>February 16th (Saturday)</b> at Sunshadow Community, 1350 Panoche Avenue, San Jose. Sign up at <a href="http://tiny.cc/STAFeb16" target="_blank">tiny.cc/STAFeb16</a>. More information on meeting location TBA. Contact <b>rcdisastercommittee@gmail.com</b> for any questions.</p>',
 		"type": types.all,
 		"visible": true
 	}
