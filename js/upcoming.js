@@ -165,14 +165,14 @@ var eventsList = [
 		"date": "January 12 (Saturday) 10am-12pm",
 		"desc": '<p>Raise awareness of our <b>January 19th</b> Sound the Alarm in the La Buona Vita Mobile Home Community by canvassing. Volunteers will go house to house talking to residents and distributing doorhangers. <a href="https://goo.gl/forms/qyBA9E7opcW4Q3gf1" target="_blank">Sign up here.</a></p>',
 		"type": types.all,
-		"visible": true
+		"visible": false
 	},
 	{
 		"name": "Fisher House Dinner",
 		"date": "January 18 (Friday) 5:30-7:30pm",
 		"desc": '<p>Youth volunteers will be going to the VA Hospital in Palo Alto to make dinner for veterans. This event is full.</p>',
 		"type": types.all,
-		"visible": true
+		"visible": false
 	},
 	{
 		"name": "Sound the Alarm",
@@ -199,6 +199,13 @@ var eventsList = [
 		"name": "Raid Cross",
 		"date": "February 2 (Saturday) 1-4pm",
 		"desc": '<p>Raid Cross is a role-playing simulation activity devised by the the Red Cross to help the youth explore:</p><ul><li>The humanitarian issues involved in armed conflict situations.</li><li>The basic rules of international humanitarian law (IHL) that apply in those situations.</li><li>The importance of these rules in conflict situations including preventing civilian casualties and excessive damage to civilian objects. e.g., schools, homes, cities, and towns.</li></ul><p>Sign up at <a href="https://goo.gl/forms/ulzRjlytUYUwI5El1" target="_blank">tinyurl.com/raidcross19</a>. Contact the International/SAF coordinators for questions.</p>',
+		"type": types.all,
+		"visible": true
+	},
+	{
+		"name": "Donor Ambassador Training",
+		"date": "February 3 (Sunday) 11am-12pm",
+		"desc": '<p>Join the Blood Committee to be trained in taking care of blood donors during a blood drive.</p>',
 		"type": types.all,
 		"visible": true
 	},
