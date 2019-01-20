@@ -186,7 +186,7 @@ var eventsList = [
 		"date": "January 20 (Sunday) 10-11am",
 		"desc": '<p>One officer from each club must attend.</p>',
 		"type": types.officers,
-		"visible": false
+		"visible": true
 	},
 	{
 		"name": "Pillowcase Project Training",
@@ -199,6 +199,13 @@ var eventsList = [
 		"name": "Raid Cross",
 		"date": "February 2 (Saturday) 1-4pm",
 		"desc": '<p>Raid Cross is a role-playing simulation activity devised by the the Red Cross to help the youth explore:</p><ul><li>The humanitarian issues involved in armed conflict situations.</li><li>The basic rules of international humanitarian law (IHL) that apply in those situations.</li><li>The importance of these rules in conflict situations including preventing civilian casualties and excessive damage to civilian objects. e.g., schools, homes, cities, and towns.</li></ul><p>Sign up at <a href="https://goo.gl/forms/ulzRjlytUYUwI5El1" target="_blank">tinyurl.com/raidcross19</a>. Contact the International/SAF coordinators for questions.</p>',
+		"type": types.all,
+		"visible": true
+	},
+	{
+		"name": "Sound the Alarm",
+		"date": "February 16 (Saturday) 8:30am-2pm",
+		"desc": '<p>Help us #EndHomeFires by installing smoke alarms and providing fire safety education within your community. Our Sound the Alarm events are generally held one Saturday every month. There is no age restriction to participate.</p><p>The next event is <b>February 16th (Saturday)</b> at Sunshadow Community, 1350 Panoche Avenue, San Jose. Sign up at <a href="http://tiny.cc/STAFeb16" target="_blank">tiny.cc/STAFeb16</a>. More information on meeting location TBA. Contact <b>rcdisastercommittee@gmail.com</b> for any questions.</p>',
 		"type": types.all,
 		"visible": true
 	}
