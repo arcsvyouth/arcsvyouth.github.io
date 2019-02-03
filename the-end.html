@@ -19,14 +19,11 @@
     background-color: #222;
     background-image:url("images/curls.png");
     background-attachment: fixed;
-    padding:20px;
-    font-size:12px;
+    padding:5px;
   }
-  .announcement-bar {
-    background:#ff6961;
+  #alert-bar {
+    background:#ed1b2e;
     color:white;
-    text-align:center;
-    padding:10px;
   }
   .quote {
     opacity: 0;
@@ -42,17 +39,19 @@
 <body>
     <div class="container-out" id="old-overlay">
       <div class="container">
-        <h4><span class="quote">"</span>American Red Cross Silicon Valley Chapter Youth<span class="quote">"</span></h4>
+        <h5><span class="quote">"</span>American Red Cross Silicon Valley Chapter Youth<span class="quote">"</span></h5>
       </div>
     </div>
-    <div class="announcement-bar">
-        <i>The website is closing and relocating! This page won't be updated anymore.</i>
+    <div class="container-out" id="alert-bar">
+      <div class="container">
+        <h1>The website is closing and relocating!</h1>
+        <p>This page won't be updated anymore. The events list is accurate as of February's first liaison meeting, but will not be added to or corrected in the future. Our new location for information on committees, events, announcements will be set up soon! See you then. :)</p>
+        </div>
     </div>
 
 <div class="container-out">
   <div class="container" id="events-list">
         <h2>Events List</h2>
-        <p>This list is accurate as of February's first liaison meeting, but will not be updated in the future.<br>
           <span class="eventLabel" style="background-color: #ddd;">all youth</span><span class="eventLabel" style="background-color: #ff6961;">committee</span><span class="eventLabel" style="background-color:#333;">officers</span><span class="eventLabel" style="background-color:#4286f4;">★</span></p>
 
         <script src="js/upcoming.js"></script>
@@ -72,14 +71,14 @@
 </div>
 
     <script type="text/javascript">
-      var h4 = document.querySelector("#old-overlay h4");
-      var q = h4.getElementsByClassName("quote");
-      h4.addEventListener("mouseover", function() {
+      var bar = document.getElementById("old-overlay");
+      var q = bar.getElementsByClassName("quote");
+      bar.addEventListener("mouseover", function() {
         for (var i = 0; i < q.length; i++) {
           q[i].classList.add("quote-on");
         }
       });
-      h4.addEventListener("mouseleave", function() {
+      bar.addEventListener("mouseleave", function() {
         for (var i = 0; i < q.length; i++) {
           q[i].classList.remove("quote-on");
         }
