@@ -1,7 +1,7 @@
-
+window.location.replace("https://arcsvyouth.github.io/the-end.html");
 function init() {
-  fillHead();
-  fillImport();
+  //fillHead();
+  //fillImport();
 }
 
 if (!window.XMLHttpRequest && 'ActiveXObject' in window) {

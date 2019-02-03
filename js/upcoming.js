@@ -179,27 +179,34 @@ var eventsList = [
 		"date": "January 19 (Saturday) 8:30am-2pm",
 		"desc": '<p>Help us #EndHomeFires by installing smoke alarms and providing fire safety education within your community. Our Sound the Alarm events are generally held one Saturday every month. There is no age restriction to participate.</p><p>The next event is <b>January 19th (Saturday)</b> at La Buona Vita Mobile Home Community. Sign up at <a href="http://tiny.cc/STAJan19" target="_blank">tiny.cc/STAJan19</a>. Meet at the La Buona Vita Clubhouse in the morning for check-in, breakfast, and training. Contact <b>rcdisastercommittee@gmail.com</b> for any questions.</p>',
 		"type": types.all,
-		"visible": true
+		"visible": false
 	},
 	{
 		"name": "Liaison Meeting",
 		"date": "January 20 (Sunday) 10-11am",
 		"desc": '<p>One officer from each club must attend.</p>',
 		"type": types.officers,
-		"visible": true
+		"visible": false
 	},
 	{
 		"name": "Pillowcase Project Training",
 		"date": "January 27 (Sunday) 11am-3pm",
 		"desc": '<p>This training is at the Silicon Valley Red Cross chapter and open to all Red Cross youth. We <b>highly recommend</b> that you attend. Food/lunch will be provided!<br>The Pillowcase Project is an interactive preparedness program designed for youth grades 3 to 5 which aims to increase understanding of natural hazards and teaches safety and personal preparedness. Becoming trained will allow you to teach these classes along with our Americorps and other youth volunteers in the local community.<br>Please <b>RSVP by January 23rd</b> for the training <a href="https://docs.google.com/forms/d/e/1FAIpQLSfo2zZmCS7Qg3ni_tRFKeVfIQsB0mVDbx6M5-KrrG4btLuJmQ/viewform?usp=send_form" target="_blank">here</a>.<br>Before you attend the training, however, you must <b>complete the following online modules</b>: "Basic Instructor Fundamentals for Youth" and the "Pillowcase Project Presenter Fundamentals Module 1" We have attached a document <a href="https://docs.google.com/document/d/10hBX6C46ZE-BKoC_l_JO78ggZesVN14QF17eFlgCP7Q/edit" target="_blank">here</a> with full instructions and screenshots to make the process easier.<br>Email <i>oishika.barat@redcross.org</i> if you have questions.</p>',
 		"type": types.all,
-		"visible": true
+		"visible": false
 	},
 	{
 		"name": "Raid Cross",
 		"date": "February 2 (Saturday) 1-4pm",
 		"desc": '<p>Raid Cross is a role-playing simulation activity devised by the the Red Cross to help the youth explore:</p><ul><li>The humanitarian issues involved in armed conflict situations.</li><li>The basic rules of international humanitarian law (IHL) that apply in those situations.</li><li>The importance of these rules in conflict situations including preventing civilian casualties and excessive damage to civilian objects. e.g., schools, homes, cities, and towns.</li></ul><p>Sign up at <a href="https://goo.gl/forms/ulzRjlytUYUwI5El1" target="_blank">tinyurl.com/raidcross19</a>. Contact the International/SAF coordinators for questions.</p>',
 		"type": types.all,
+		"visible": true
+	},
+	{
+		"name": "Liaison Meeting",
+		"date": "February 3 (Sunday) 10-11am",
+		"desc": '<p>One officer from each club must attend.</p>',
+		"type": types.officers,
 		"visible": true
 	},
 	{
@@ -213,6 +220,13 @@ var eventsList = [
 		"name": "Sound the Alarm",
 		"date": "February 16 (Saturday) 8:30am-2pm",
 		"desc": '<p>Help us #EndHomeFires by installing smoke alarms and providing fire safety education within your community. Our Sound the Alarm events are generally held one Saturday every month. Volunteers must be 16 or older to enter homes and install alarms. Volunteers younger than 16 can participate by canvassing during the day.</p><p>The next event is <b>February 16th (Saturday)</b> at Sunshadow Community, 1350 Panoche Avenue, San Jose. Sign up at <a href="http://tiny.cc/STAFeb16" target="_blank">tiny.cc/STAFeb16</a>. More information on meeting location TBA. Contact <b>rcdisastercommittee@gmail.com</b> for any questions.</p>',
+		"type": types.all,
+		"visible": true
+	},
+	{
+		"name": "Red Cross Mixer",
+		"date": "February 23 (Saturday) 6:30-9:30pm",
+		"desc": '<p>We are very excited to invite you all to our mixer on <b>Saturday, February 23, from 6:30 PM - 9:30 PM</b> at the Silicon Valley chapter. Not only is it our first Red Cross mixer, but it is also regional wide. This means you will be able to meet other youth from the Oakland and San Francisco chapters. The dress code is semi-formal (think Homecoming) and our theme is "Cloud Nine." ANYONE is welcome so be sure to tell your clubs and committees. This is a great opportunity to meet new people and a good option for a team bonding event.</p><p>Tickets will be $5 each and can be paid at the door. You can also <a href="https://docs.google.com/spreadsheets/d/1UcsdZhgFH7cwrn6rVJO7qdAUUywXr5ry1uYjeknxo74/edit?ts=5c4691cd#gid=0" target="_blank">sign up</a> to bring one of these items instead of paying $5.</p><p>Here is the RSVP link: <a href="https://goo.gl/forms/Qu7h36ZqlLnWJu4s2" target="_blank">tinyurl.com/rccloud9</a>.</p>',
 		"type": types.all,
 		"visible": true
 	}
