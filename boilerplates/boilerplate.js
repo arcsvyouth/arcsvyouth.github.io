@@ -1,4 +1,4 @@
-window.location.replace("https://arcsvyouth.github.io/the-end.html");
+// window.location.replace("https://arcsvyouth.github.io/the-end.html");
 function init() {
   //fillHead();
   //fillImport();
